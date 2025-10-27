@@ -1,12 +1,58 @@
 Practical default reasoning
 
 
+Cases that involve the principle of non-malevolence.
 [
 {
-"id": 1
-"premises": 
-"hypothesis": 
-"explanation": 
-}
+    "id": 2,
+    "premise": "You shall do no harm.",
+    "hypothesis": "You shall not kill.",
+    "label": "Default reasoning",
+    "explanation": "Killing involves harming."
+  }, 
 
+{
+    "id": 2,
+    "premise": "You shall do no harm.",
+    "hypothesis": "You shall not trash talk others.",
+    "label": "Default reasoning",
+    "explanation": "Typically, people don't like being trash-talked."
+  },
+
+ {
+    "id": 3,
+    "premise": "You shall do no harm.",
+    "hypothesis": "You shall not injure others.",
+    "label": "Default reasoning",
+    "explanation": "Typically, to injure others involves doing harm."
+  }
 ]
+
+Cases that involve the principle of beneficence.
+[
+ {
+    "id": 4,
+    "premise": "You should help others.",
+    "hypothesis": "You should comfort someone who is crying.",
+    "label": "Default reasoning",
+    "explanation": "Typically, crying people enjoy comfort."
+  },
+{
+    "id": 5,
+    "premise": "You should promote others’ happiness.",
+    "hypothesis": "You should help others in need.",
+    "label": "Default reasoning",
+    "explanation": "Typically, helping those in need supports their happiness."
+  },
+{
+    "id": 6,
+    "premise": "You should promote others’ wellbeing.",
+    "hypothesis": "You should save someone in danger.",
+    "label": "Default reasoning",
+    "explanation": "Saving someone in danger promotes the person's wellbeing."
+  },
+]
+
+
+
+
