@@ -1,0 +1,25 @@
+Classical logic
+
+[
+    {
+        "id": 1,
+        "premise": "Fido is not in the garden.",
+        "hypothesis": "Fido is inside.",
+        "label": "entailment",
+        "explanation": "Either Fido is inside or Fido is in the garden."
+    },
+    {
+        "id": 2,
+        "premise": "Mary was at the wedding.",
+        "hypothesis": "Sue was at the wedding.",
+        "label": "entailment",
+        "explanation": "If Mary was at the wedding, then Sue was at the wedding."
+    },
+    {
+        "id": 3,
+        "premise": "Sue was not at the wedding.",
+        "hypothesis": "Mary was not at the wedding.",
+        "label": "entailment",
+        "explanation": "If Mary was at the wedding, then Sue was at the wedding."
+    },
+]
