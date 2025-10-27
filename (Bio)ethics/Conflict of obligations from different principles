@@ -1,1 +1,37 @@
 Conflict of obligations from different principles
+Group A - Applied ethics at large
+
+Group B - Bioethics
+[
+{
+  "id": 1,
+  "premise": "A patient refuses a medical treatment that would significantly improve their health. You should promote others’ wellbeing. You should respect others’ autonomy.",
+  "hypothesis": "You ought to respect the patient’s refusal.",
+  "label": "Conflict between different principles (Autonomy vs. Beneficence)",
+  "explanation": "There is a prima facie obligation to benefit the patient by providing the treatment and a prima facie obligation to respect their decision. In this situation, honoring the patient’s autonomous choice takes priority."
+}
+
+{
+  "id": 2,
+  "premise": "A patient insists on receiving a procedure that would likely cause significant harm without offering any medical benefit. You should respect others’ autonomy. You shall do no harm.",
+  "hypothesis": "You ought not to perform the procedure.",
+  "label": "Conflict between different principles (Autonomy vs. Non-maleficence)",
+  "explanation": "There is a prima facie obligation to honor the patient’s autonomous request and a prima facie obligation to avoid causing harm. In this case, preventing serious harm takes priority over respecting the request."
+}
+
+{
+  "id": 3,
+  "premise": "A father refuses a necessary treatment for his minor son, but the treatment would greatly improve the child's health. You should respect others’ autonomy. You should promote others’ wellbeing.",
+  "hypothesis": "You ought to provide the treatment to the son.",
+  "label": "Conflict between different principles (Autonomy vs. Beneficence)",
+  "explanation": "There is a prima facie obligation to respect the father’s decision and a prima facie obligation to benefit the child. In this case, promoting the child’s wellbeing takes priority over honoring the parental choice."
+}
+
+{
+  "id": 4,
+  "premise": "The physician knows that the patient is terminally ill. The news will cause great distress. The patient explicitly asks to know the truth. You should promote others’ wellbeing. You should respect others’ autonomy.",
+  "hypothesis": "You ought to tell the patient the truth.",
+  "label": "Conflict between different principles (Autonomy vs. Beneficence)",
+  "explanation": "There is a prima facie obligation to promote the patient’s wellbeing and a prima facie obligation to respect the patient’s autonomy. In this case, respecting the patient’s autonomy takes priority."
+}
+]
