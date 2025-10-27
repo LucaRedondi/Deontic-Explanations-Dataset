@@ -1,1 +1,41 @@
 Common sense - Epistemic reasoning
+
+In the following cases, the validity of the explanation lies in the recognition of certain logical relations between expression in natural language. For example, in case 1 "A cute couple at a club." entails "A couple at a club.". 
+
+[
+    {
+        "id": 1,
+        "premise": "A cute couple at a club",
+        "hypothesis": "The couple is at a club.",
+        "label": "entailment",
+        "explanation": " A cute couple at a club means a couple is at a club."
+    },
+    {
+        "id": 2,
+        "premise": "Seven men wearing bright orange reflective vests are looking inside the door of a red train.",
+        "hypothesis": "A group of men are looking in a train.",
+        "label": "entailment",
+        "explanation": " Seven men are looking in a train."
+    },
+    {
+        "id": 3,
+        "premise": "A policeman is directing a crowd of people walking.",
+        "hypothesis": "A policeman is herding pedestrians.",
+        "label": "entailment",
+        "explanation": " directing a crowd of people is other expression of  herding pedestrians."
+    },
+    {
+        "id": 4,
+        "premise": "A woman in black framed glasses peruses a photo album while sitting in a red wicker chair.",
+        "hypothesis": "There is a lady with a book.",
+        "label": "entailment",
+        "explanation": " The lady is looking through a photo album which is a type of book."
+    },
+    {
+        "id": 5,
+        "premise": "A festival displays two men dressed in red makeup and costume, while an older man has cream on his face.",
+        "hypothesis": "Two men are dressed in makeup",
+        "label": "entailment",
+        "explanation": " In red makeup is a type of makeup."
+    }
+]
