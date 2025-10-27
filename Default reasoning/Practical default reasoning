@@ -3,10 +3,10 @@ Practical default reasoning
 
 [
 {
-"Id:" 1
-"Pr:" 
-"Hy:" 
-"Ex:" 
+"id": 1
+"premises": 
+"hypothesis": 
+"explanation": 
 }
 
 ]
