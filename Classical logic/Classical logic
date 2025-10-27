@@ -22,4 +22,44 @@ Classical logic
         "label": "entailment",
         "explanation": "If Mary was at the wedding, then Sue was at the wedding."
     },
+
+{
+    "id": 4,
+    "premise": "Alice is a doctor and Alice is a musician.",
+    "hypothesis": "Alice is a doctor.",
+    "label": "entailment",
+    "explanation": ""
+  },
+
+{
+  "id": 5,
+  "premise": "Alice is a doctor.",
+  "hypothesis": "Alice is a doctor and Alice is a musician.",
+  "label": "entailment",
+  "explanation": "Alice is a musician."
+},
+
+ {
+        "id": 6,
+        "premise": "Either Fido is inside or Fido is in the garden.",
+        "hypothesis": "Fido is inside.",
+        "label": "entailment",
+        "explanation": "Fido is not in the garden."
+    }
+
+{
+        "id": 7,
+        "premise": "If Mary was at the wedding, then Sue was at the wedding.",
+        "hypothesis": "Mary was not at the wedding.",
+        "label": "entailment",
+        "explanation": "Sue was not at the wedding. "
+    },
+
+{
+        "id": 8,
+        "premise": "If Mary was at the wedding, then Sue was at the wedding.",
+        "hypothesis": "Sue was at the wedding.",
+        "label": "entailment",
+        "explanation": "Mary was at the wedding."
+    }
 ]
