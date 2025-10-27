@@ -1,1 +1,14 @@
 Case-study: euthanasia
+Note: I should look at the different type of euthanasia to organize this part of the repository
+
+[
+{
+  "id": 1,
+  "premise": "The patient is competent. The suffering is severe and refractory. There is no prospect of improvement. The patient repeatedly requests euthanasia after full information. You should promote others’ wellbeing. You should respect others’ autonomy. You shall do no harm.",
+  "hypothesis": "You ought to perform euthanasia.",
+  "label": "Conflict between different principles (Autonomy & Beneficence vs. Non-maleficence)",
+  "explanation": "There is a prima facie obligation to relieve intolerable suffering and a prima facie obligation to respect a competent, persistent request, and a prima facie obligation to avoid killing. In this case, autonomy and beneficence together outweigh non-maleficence."
+}
+
+
+]
