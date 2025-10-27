@@ -1,1 +1,51 @@
 Conflict of obligations within one principle
+
+[
+{
+  "id": 1,
+  "premise": "You can either comfort a stranger or help another stranger in medical distress, but not both. You should promote others’ wellbeing.",
+  "hypothesis": "You ought to help the stranger in medical distress.",
+  "label": "Conflict within one principle",
+  "explanation": "Since promoting others’ wellbeing is good, there is a prima facie obligation to comfort one stranger and a prima facie obligation to help the other. Because medical danger is more urgent, helping the stranger in distress takes priority."
+}
+
+{
+  "id": 2,
+  "premise": "You can either comfort your friend or comfort a stranger, but not both. You should promote others’ wellbeing.",
+  "hypothesis": "You ought to comfort your friend.",
+  "label": "Conflict within one principle",
+  "explanation": "Since promoting others’ wellbeing is good, there is a prima facie obligation to comfort your friend and a prima facie obligation to comfort the stranger. Because you have a closer personal relationship, comforting your friend has priority."
+}
+
+{
+  "id": 3,
+  "premise": "You can either save two strangers in danger or save one stranger in danger, but not both. You should promote others’ wellbeing.",
+  "hypothesis": "You ought to save the two strangers.",
+  "label": "Conflict within one principle",
+  "explanation": "Since promoting others’ wellbeing is good, there is a prima facie obligation to save the two strangers and a prima facie obligation to save the one. Because saving more people results in greater overall wellbeing, saving the two has priority."
+}
+
+{
+  "id": 4,
+  "premise": "You can either expose one person to a dangerous chemical or expose two people to the same danger, but both actions would cause harm. You shall do no harm.",
+  "hypothesis": "You ought to avoid exposing the two people.",
+  "label": "Conflict within one principle",
+  "explanation": "Since harming others is bad, there is a prima facie obligation to avoid harming the one person and a prima facie obligation to avoid harming the two. Because harming more people is worse, preventing harm to the larger group has priority."
+}
+
+{
+  "id": 5,
+  "premise": "If you push the button, one person will die; if you do not push the button, two people will die. You shall do no harm.",
+  "hypothesis": "You ought to push the button.",
+  "label": "Conflict within one principle",
+  "explanation": "Since harming others is bad, there is a prima facie obligation to avoid the one death and a prima facie obligation to avoid the two deaths. Because preventing greater harm has priority, you ought to push the button."
+}
+
+{
+  "id": 8,
+  "premise": "If you push the button, one person will die; if you do not push the button, two people will die. You shall do no harm.",
+  "hypothesis": "You ought not to push the button.",
+  "label": "Conflict within one principle",
+  "explanation": "Since harming others is bad, there is a prima facie obligation to avoid the one death and a prima facie obligation to avoid the two deaths. Avoiding actively causing harm takes priority over preventing a greater amount of harm, so you ought not to push."
+}
+]
