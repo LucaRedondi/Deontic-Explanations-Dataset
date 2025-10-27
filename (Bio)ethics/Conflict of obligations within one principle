@@ -42,7 +42,7 @@ Conflict of obligations within one principle
 }
 
 {
-  "id": 8,
+  "id": 6,
   "premise": "If you push the button, one person will die; if you do not push the button, two people will die. You shall do no harm.",
   "hypothesis": "You ought not to push the button.",
   "label": "Conflict within one principle",
