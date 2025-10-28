@@ -51,4 +51,37 @@ Group A - Applied ethics at large
 }
 ]
 
-Group B - Bioethics
+Group B - Bioethics (expecially, resource allocation)
+
+[
+{
+    "id": 7,
+    "premise": "You can give the only available kidney to a young patient or to an older patient, but not to both. You should promote others’ wellbeing.",
+    "hypothesis": "You ought to give the kidney to the young patient.",
+    "label": "Conflict within one principle",
+    "explanation": "Since promoting wellbeing is good, there is a prima facie obligation to help both patients. Because the young patient has a longer expected benefit, saving more future life takes priority."
+  },
+
+{
+    "id": 8,
+    "premise": "You can give the only available kidney to a patient who has waited a very long time or to a patient with a slightly better prognosis, but not to both. You should treat people fairly.",
+    "hypothesis": "You ought to give the kidney to the patient who has waited longer.",
+    "label": "Conflict within one principle",
+    "explanation": "Since treating people fairly is good, there is a prima facie obligation to favor the better prognosis and a prima facie obligation to favor the person who has waited longer. In this case, fairness as equal chance takes priority."
+  },
+{
+  "id": 9,
+  "premise": "You can give the only available kidney to a child or to an adult, but not to both. You should promote others’ wellbeing. In precedent 1, you could give the only available kidney to a young patient or an older patient. In precedent 1, you ought to give the kidney to the young patient.",
+  "hypothesis": "You ought to give the kidney to the child.",
+  "label": "Conflict within one principle (A fortiori reasoning)",
+  "explanation": "Since promoting others’ wellbeing is good, there is a prima facie obligation to help the child and a prima facie obligation to help the adult. Because helping the young patient takes priority in the precedent case, helping a child takes priority a fortiori."
+},
+
+{
+  "id": 10,
+  "premise": "You can give the only available kidney to a patient who will die soon without it or to a patient whose condition is more stable, but not to both. You should promote others’ wellbeing.",
+  "hypothesis": "You ought to give the kidney to the patient who will die soon.",
+  "label": "Conflict within one principle",
+  "explanation": "Since promoting others’ wellbeing is good, there is a prima facie obligation to help both patients. Because one patient urgently needs the kidney to stay alive, urgency takes priority."
+}
+]
