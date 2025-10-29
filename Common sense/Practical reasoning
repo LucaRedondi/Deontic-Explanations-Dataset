@@ -53,7 +53,52 @@ Cases that involve the principle of non-malevolence
 
 Cases that involve respect for others' autonomy.
 
+[
+  {
+    "id": 7,
+    "premise": "Respecting people’s decisions is right.",
+    "hypothesis": "People’s decisions should be respected.",
+    "label": "natural language complexity",
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "premise": "To respect people’s choices is good.",
+    "hypothesis": "We should respect people’s choices.",
+    "label": "natural language complexity",
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "premise": "It is morally appropriate to respect each person’s will.",
+    "hypothesis": "Each person’s will should be respected.",
+    "label": "natural language complexity",
+    "explanation": ""
+  }
+]
 
 Cases that involve the principle of justice.
 
-
+[
+  {
+    "id": 10,
+    "premise": "Treating people fairly is right.",
+    "hypothesis": "People should be treated fairly.",
+    "label": "natural language complexity",
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "premise": "To treat everyone equally is good.",
+    "hypothesis": "Everyone should be treated equally.",
+    "label": "natural language complexity",
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "premise": "It is morally appropriate to give each person what they deserve.",
+    "hypothesis": "Each person ought to receive what they deserve.",
+    "label": "natural language complexity",
+    "explanation": ""
+  }
+]
