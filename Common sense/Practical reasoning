@@ -3,51 +3,51 @@ Cases that involve the principle of non-malevolence
 [
 {
     "id": 1,
-    "premise": "",
+    "premise": "Killing is wrong.",
     "hypothesis": "You shall not kill.",
     "label": "Natural language complexity",
-    "explanation": "Killing is wrong."
+    "explanation": ""
   },
 
 {
     "id": 1,
-    "premise": "",
+    "premise": "To kill is wrong.",
     "hypothesis": "You shall not kill.",
     "label": "Natural language complexity",
-    "explanation": "To kill is wrong."
+    "explanation": ""
   },
 
 {
     "id": 3,
-    "premise": "",
+    "premise": "To take a person's life is morally forbidden.",
     "hypothesis": "You shall not kill.",
     "label": "Natural language complexity",
-    "explanation": "To take a person's life is morally forbidden."
+    "explanation": ""
   },
 ]
 
 [
   {
     "id": 4,
-    "premise": "",
+    "premise": "Helping others is good.",
     "hypothesis": "You should help others.",
     "label": "natural language complexity",
-    "explanation": "Helping others is good."
+    "explanation": ""
   },
   {
     "id": 5,
-    "premise": "",
+    "premise": "To help others is good.",
     "hypothesis": "You should help others.",
     "label": "natural language complexity",
-    "explanation": "To help others is good."
+    "explanation": ""
   },
 
 {
   "id": 6,
-  "premise": "",
+  "premise": "Helping others is morally appropriate.",
   "hypothesis": "You should help others.",
   "label": "natural language complexity",
-  "explanation": "Helping others is morally appropriate."
+  "explanation": ""
 }
 ]
 
