@@ -34,32 +34,8 @@ Classical logic
 {
   "id": 5,
   "premise": "Alice is a doctor. Alice is a musician.",
-  "hypothesis": "Alice is a doctor and Alice is a musician.",
+  "hypothesis": "Alice is a doctor and a musician.",
   "label": "entailment",
   "explanation": ""
 },
-
- {
-        "id": 6,
-        "premise": "Either Fido is inside or Fido is in the garden. Fido is not in the garden.",
-        "hypothesis": "Fido is inside.",
-        "label": "entailment",
-        "explanation": ""
-    }
-
-{
-        "id": 7,
-        "premise": "If Mary was at the wedding, then Sue was at the wedding. Sue was not at the wedding.",
-        "hypothesis": "Mary was not at the wedding.",
-        "label": "entailment",
-        "explanation": ""
-    },
-
-{
-        "id": 8,
-        "premise": "If Mary was at the wedding, then Sue was at the wedding. Mary was at the wedding.",
-        "hypothesis": "Sue was at the wedding.",
-        "label": "entailment",
-        "explanation": ""
-    }
 ]
