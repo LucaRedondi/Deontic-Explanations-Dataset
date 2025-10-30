@@ -13,7 +13,7 @@ Undercuts
   "premise": "A medical procedure is risky. The patient is already dying. You shall do no harm.",
   "hypothesis": "You are permitted to perform the procedure.",
   "label": "Undercutting condition (Non-maleficence depends on context)",
-  "explanation": "Not causing harm gives a reason to avoid the procedure. But the patient is already dying. So the usual reason not to risk harm does not fully apply here."
+  "explanation": "Not causing harm gives a reason to avoid the procedure. But the patient is already dying. So the usual reason not to risk harm does not apply here."
 }
 
 {
@@ -30,13 +30,5 @@ Undercuts
   "hypothesis": "You are permitted not to give the treatment.",
   "label": "Undercutting condition (Beneficence requires real benefit)",
   "explanation": "Helping others is good when it improves their wellbeing. But here the treatment would not help. So the usual reason to treat does not apply."
-}
-
-{
-  "id": 5,
-  "premise": "A competent person refuses vaccination. Refusing vaccination endangers others. You should respect others’ autonomy.",
-  "hypothesis": "You are permitted not to follow the refusal.",
-  "label": "Undercutting condition (Autonomy applies only to self-regarding choices)",
-  "explanation": "Respecting autonomy normally means accepting a person’s choice. But this choice creates serious risk for others. So the usual reason to respect autonomy does not fully apply here."
 }
 ]
