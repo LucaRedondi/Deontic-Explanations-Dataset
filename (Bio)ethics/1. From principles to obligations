@@ -60,7 +60,7 @@ Group 3 - Cases that involve respect for others' autonomy.
   "premise": "You should respect others’ autonomy. Bob says that he is a vegetarian.",
   "hypothesis": "You should not offer Bob any meat.",
   "label": "Instantiation",
-  "explanation": "People who say they are vegetarians generally do not like being offered meat."
+  "explanation": "People who say they are vegetarians generally do not want to be offered meat."
 },
 
 {
@@ -88,7 +88,7 @@ Group 4 - Cases that involve the principle of justice.
     "premise": "People should be treated fairly. Two employees do the same job.",
     "hypothesis": "You should pay the employees the same salary.",
     "label": "Instantiation",
-    "explanation": "Paying the employees the same salary means treating them fairly."
+    "explanation": "If the employees do the same job, paying them the same salary means treating them fairly."
   },
   {
     "id": 11,
