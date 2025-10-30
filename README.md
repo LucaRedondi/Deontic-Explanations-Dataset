@@ -6,38 +6,34 @@ The focus of this dataset is deontic reasoning and – especially – ethical re
 # The format of cases
 Each case is composed by a set of premises, a hypothesis and an explanation. The premises contain relevant information about the facts as well as the moral principles involved in the case. To move from the premises to the hypothesis, some reasoning steps are required. These are provided by the explanation. Here is an example:
 
-Premises: Bob declines your proposal to meet at his place. You should respect others’ autonomy.
-
-Hypothesis: You should not show up at Bob’s place.
-
-Explanation: Because you should respect others autonomy, if Bob’s don’t want you at his place, then you should not go at his place. Since Bob declined your proposal to meet at his place, he is likely not to want you at his place.
+- Premises: Bob declines your proposal to meet at his place. You should respect others’ autonomy.
+- Hypothesis: You should not show up at Bob’s place.
+- Explanation: Because you should respect others autonomy, if Bob’s don’t want you at his place, then you should not go at his place. Since Bob declined your proposal to meet at his place, he is likely not to want you at his place.
 
 # Organization of the Dataset 
 The Dataset is organized in different groups, that target different reasoning patterns. They are defined by their “missing step”, i.e.: what is missing between the premises and the hypothesis.
 
 # 1.	Classical logic
-Sometimes there is no missing step at all, provided that one acknowledges all the information contained in the premises.
-Premises: Either Sue is at the wedding, or Mary is at the wedding. Mary is not at the wedding.
-Hypothesis: Sue is at the wedding. 
-Explanation: 
+Sometimes there is no missing step at all, provided that one acknowledges all the information contained in the premises. For example:
+
+- Premises: Either Sue is at the wedding, or Mary is at the wedding. Mary is not at the wedding.
+- Hypothesis: Sue is at the wedding. 
+- Explanation:
+
 The cases in this folder are such that, by simply applying classical logic on the premises, one can infer the hypothesis. 
 
 # 2.	Common sense
 Consider the example:
 
-Premises: A young child is outside.
-
-Hypothesis: An infant is outside.
-
-Explanation: A young child is an infant.
+- Premises: A young child is outside.
+- Hypothesis: An infant is outside.
+- Explanation: A young child is an infant.
 
 Here the missing step consists in establishing that two terms are equivalent. In practical reasoning, we can have deontic statements expressed in different ways in natural language:
 
-Premises: Killing is wrong.
-
-Hypothesis: You should not kill. 
-
-Explanation: To say that killing is wrong is to say that you should not kill. 
+- Premises: Killing is wrong.
+- Hypothesis: You should not kill. 
+- Explanation: To say that killing is wrong is to say that you should not kill. 
 
 In some specific normative theories, the two propositions might actually have different meaning, just as in some factual context a young child might not be an infant. However, in normal circumstances the explanations provided above – both the epistemic and the deontic one – are to be accepted as valid. 
 
@@ -45,25 +41,22 @@ In some specific normative theories, the two propositions might actually have di
 # 3.	Default reasoning
 Sometimes to bridge from the premises to the explanation one needs some default assumption:
 
-Premises: A man walks in the snow.
-
-Hypothesis: A man walks in Winter.
-
-Explanation: If there is snow, then it is likely to be Winter.
+- Premises: A man walks in the snow.
+- Hypothesis: A man walks in Winter.
+- Explanation: If there is snow, then it is likely to be Winter.
 
 This can happen in deontic reasoning as well:
 
-Premises: Killing is wrong.
-
-Hypothesis: You should not shoot Bob.
-
-Explanation: Shooting at someone typically implies killing.
+- Premises: Killing is wrong.
+- Hypothesis: You should not shoot Bob.
+- Explanation: Shooting at someone typically implies killing.
 
 # 4.	Modalities
 The alethic modalities (necessity, possibility, impossibility) and the deontic modalities (obligation, permission, prohibition) display a certain logical relations:  for instance, if p is necessary then not-p is not possible; and similarly: if p is obligatory then not-p is not permissible. The cases in this folder are such that, in order to solve them, one must understands the mutual relations between alethic (resp. deontic) modalities. Here is an example:
-Premises: To save someone is obligatory.
-Hypothesis: To save someone is permitted. 
-Explanation: If something is obligatory, then it is also permitted. 
+
+- Premises: To save someone is obligatory.
+- Hypothesis: To save someone is permitted. 
+- Explanation: If something is obligatory, then it is also permitted. 
 
 Since our focus is on practical reasoning, we devote more space to deontic modalities. In particular, we introduce the notion of conditional obligation, crucial in the development of modal deontic logics. The conditional obligation to A given B tells us that A is obligatory whenever B is true. Conditional obligation gives rise to two inference patterns: 
 
@@ -87,5 +80,5 @@ In the subfolders 2, 3 and 4, we explore the reasoning patterns that emerge in t
 The cases in subfolder 5 are the most complex. The form a roaster of possible scenario concerning the ehtical issues around the practice of euthanasia. These cases involve reasoning pattern that have already be introduced elsewhere in the repository. Their addition to the repository consists in trying to approximate the complexity of real life scenarios. 
 
 
-References to other Datasets
+# References to other Datasets
 We reused some cases for existing Datasets, in particular: …
