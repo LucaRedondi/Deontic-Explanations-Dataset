@@ -5,13 +5,36 @@ Modalities - Epistemic reasoning
         "premise": "Mary might not have been at the wedding.",
         "hypothesis": "It’s not the case that Mary must have been at the wedding.",
         "label": "entailment",
-        "explanation": " "
+        "explanation": "If something might not have been, then it is not necessary."
     },
     {
         "id": 2,
         "premise": "It’s not the case that Mary must have been at the wedding.",
         "hypothesis": "Mary might not have been at the wedding.",
         "label": "entailment",
-        "explanation": " "
+        "explanation": "If something is not necessary, then it might not have been."
     },
+
+  {
+    "id": 3,
+    "premise": "It is necessary that Mary was not at the wedding.",
+    "hypothesis": "It is impossible that Mary was at the wedding.",
+    "label": "entailment",
+    "explanation": "If it is necessary that not-P, that it is impossible that P."
+  },
+  {
+    "id": 4,
+    "premise": "It is necessary that Mary was at the wedding.",
+    "hypothesis": "It is impossible that Mary was not at the wedding.",
+    "label": "entailment",
+    "explanation": "If it is necessary that P, then not-P is impossible."
+  },
+  {
+    "id": 5,
+    "premise": "It is not impossible that Mary was at the wedding.",
+    "hypothesis": "It is possible that Mary was at the wedding.",
+    "label": "entailment",
+    "explanation": "If something is not impossible, then it is possible."
+  }
+]
 ]
