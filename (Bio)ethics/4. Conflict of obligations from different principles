@@ -46,7 +46,7 @@ Group A - Applied ethics at large
 Group B - Bioethics
 [
 {
-  "id": 1,
+  "id": 6,
   "premise": "A patient refuses a medical treatment that would significantly improve their health. You should promote others’ wellbeing. You should respect others’ autonomy.",
   "hypothesis": "You ought to respect the patient’s refusal.",
   "label": "Conflict between different principles (Autonomy vs. Beneficence)",
@@ -54,7 +54,7 @@ Group B - Bioethics
 }
 
 {
-  "id": 2,
+  "id": 7,
   "premise": "A patient insists on receiving a procedure that would likely cause significant harm without offering any medical benefit. You should respect others’ autonomy. You shall do no harm.",
   "hypothesis": "You ought not to perform the procedure.",
   "label": "Conflict between different principles (Autonomy vs. Non-maleficence)",
@@ -62,7 +62,7 @@ Group B - Bioethics
 }
 
 {
-  "id": 3,
+  "id": 8,
   "premise": "A father refuses a necessary treatment for his minor son, but the treatment would greatly improve the child's health. You should respect others’ autonomy. You should promote others’ wellbeing.",
   "hypothesis": "You ought to provide the treatment to the son.",
   "label": "Conflict between different principles (Autonomy vs. Beneficence)",
@@ -70,7 +70,7 @@ Group B - Bioethics
 }
 
 {
-  "id": 4,
+  "id": 9,
   "premise": "The physician knows that the patient is terminally ill. The news will cause great distress. The patient explicitly asks to know the truth. You should promote others’ wellbeing. You should respect others’ autonomy.",
   "hypothesis": "You ought to tell the patient the truth.",
   "label": "Conflict between different principles (Autonomy vs. Beneficence)",
@@ -78,7 +78,7 @@ Group B - Bioethics
 },
 
 {
-  "id": 5,
+  "id": 10,
   "premise": "A patient refuses a simple and life-saving treatment. The patient is severely confused because of a high fever. You should respect others’ autonomy. You should promote others’ wellbeing.",
   "hypothesis": "You ought to give the treatment.",
   "label": "Undercutting condition (Autonomy requires competent choice)",
