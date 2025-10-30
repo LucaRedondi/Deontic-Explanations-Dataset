@@ -1,6 +1,4 @@
-Group A - From principle to general prima-facie duties
-
-1 - Cases that involve the principle of non-malevolence.
+Group 1 - Cases that involve the principle of non-malevolence.
 [
 {
     "id": 1,
@@ -28,7 +26,7 @@ Group A - From principle to general prima-facie duties
 ]
 
 
-2 - Cases that involve the principle of beneficence.
+Group 2 - Cases that involve the principle of beneficence.
 [
  {
     "id": 4,
@@ -54,7 +52,7 @@ Group A - From principle to general prima-facie duties
 ]
 
 
-3 - Cases that involve respect for others' autonomy.
+Group 3 - Cases that involve respect for others' autonomy.
 
 [
  {
@@ -80,7 +78,7 @@ Group A - From principle to general prima-facie duties
   },
 ]
 
-4 - Cases that involve the principle of justice.
+Group 4 - Cases that involve the principle of justice.
 
 [
   {
