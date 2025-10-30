@@ -5,8 +5,11 @@ The focus of this dataset is deontic reasoning and – especially – ethical re
 
 # The format of cases
 Each case is composed by a set of premises, a hypothesis and an explanation. The premises generally contain relevant information about the facts as well as the moral principles involved in the case. To move from the premises to the hypothesis, some reasoning steps are required. These are provided by the explanation. Here is an example:
+
 Premises: Bob declines your proposal to meet at his place. You should respect others’ autonomy.
+
 Hypothesis: You should not show up at Bob’s place.
+
 Explanation: Because you should respect others autonomy, if Bob’s don’t want you at his place, then you should not go at his place. Since Bob declined your proposal to meet at his place, he is likely not to want you at his place.
 
 # Organization of the Dataset 
