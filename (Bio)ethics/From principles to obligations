@@ -1,110 +1,108 @@
+Group A - From principle to general prima-facie duties
 
-Practical default reasoning
-
-Group A - From principle to general duties
-
-A1 - Cases that involve the principle of non-malevolence.
+1 - Cases that involve the principle of non-malevolence.
 [
 {
-    "id": 2,
+    "id": 1,
     "premise": "You shall do no harm.",
-    "hypothesis": "You shall not kill.",
-    "label": "Default reasoning",
+    "hypothesis": "You shall not kill Mary.",
+    "label": "Instantiation",
     "explanation": "Killing involves harming."
   }, 
 
 {
     "id": 2,
     "premise": "You shall do no harm.",
-    "hypothesis": "You shall not trash talk others.",
-    "label": "Default reasoning",
+    "hypothesis": "You shall not trash talk Bob.",
+    "label": "Instantiation",
     "explanation": "Typically, people don't like being trash-talked."
   },
 
  {
     "id": 3,
     "premise": "You shall do no harm.",
-    "hypothesis": "You shall not injure others.",
-    "label": "Default reasoning",
-    "explanation": "Typically, to injure others involves doing harm."
+    "hypothesis": "You shall not injure John.",
+    "label": "Instantiation",
+    "explanation": "To injure John involves doing harm."
   }
 ]
 
-A2 - Cases that involve the principle of beneficence.
+
+2 - Cases that involve the principle of beneficence.
 [
  {
     "id": 4,
-    "premise": "You should help others.",
-    "hypothesis": "You should comfort someone who is crying.",
-    "label": "Default reasoning",
+    "premise": "You should help others. Bob is crying.",
+    "hypothesis": "You should comfort Bob.",
+    "label": "Instantiation",
     "explanation": "Typically, crying people enjoy comfort."
   },
 {
     "id": 5,
-    "premise": "You should promote others’ happiness.",
-    "hypothesis": "You should help others in need.",
-    "label": "Default reasoning",
+    "premise": "You should promote others’ happiness. Mary is in need.",
+    "hypothesis": "You should help Mary.",
+    "label": "Instantiation",
     "explanation": "Typically, helping those in need supports their happiness."
   },
 {
     "id": 6,
-    "premise": "You should promote others’ wellbeing.",
-    "hypothesis": "You should save someone in danger.",
-    "label": "Default reasoning",
+    "premise": "You should promote others’ wellbeing. Jane is in danger.",
+    "hypothesis": "You should save Jane.",
+    "label": "Instantiation",
     "explanation": "Saving someone in danger promotes the person's wellbeing."
   },
 ]
 
 
-Group B - From principle to prima-facie obligations in particular cases
-
-B3 - Cases that involve respect for others' autonomy.
+3 - Cases that involve respect for others' autonomy.
 
 [
  {
   "id": 7,
   "premise": "You should respect others’ autonomy. Bob says that he is a vegetarian.",
   "hypothesis": "You should not offer Bob any meat.",
-  "label": "Default reasoning",
+  "label": "Instantiation",
   "explanation": "People who say they are vegetarians generally do not like being offered meat."
 },
  {
     "id": 8,
     "premise": "People should decide how they spend their time. Dana keeps looking at their watch during the conversation.",
     "hypothesis": "You should allow Dana to leave if they want to.",
-    "label": "Default reasoning",
+    "label": "Instantiation",
     "explanation": "Repeatedly checking a watch indicates wanting to do something else."
   },
 {
     "id": 9,
     "premise": "You should respect others' autonomy. Bob shys away from your attention.",
     "hypothesis": "You should leave Bob in peace.",
-    "label": "Default reasoning",
+    "label": "Instantiation",
     "explanation": "Shying away from your attention suggests that someone doesn’t enjoy your company."
   },
 ]
 
-B4 - Cases that involve the principle of justice.
+4 - Cases that involve the principle of justice.
 
- {
-  "id": 7,
-  "premise": "You should respect others’ autonomy. Bob says that he is a vegetarian.",
-  "hypothesis": "You should not offer Bob any meat.",
-  "label": "Default reasoning",
-  "explanation": "People who say they are vegetarians generally do not like being offered meat."
-},
- {
-    "id": 8,
-    "premise": "People should decide how they spend their time. Dana keeps looking at their watch during the conversation.",
-    "hypothesis": "You should allow Dana to leave if they want to.",
-    "label": "Default reasoning",
-    "explanation": "Repeatedly checking a watch indicates wanting to do something else."
+[
+  {
+    "id": 10,
+    "premise": "People should be treated fairly. Two employees do the same job.",
+    "hypothesis": "You should pay the employees the same salary.",
+    "label": "Instantiation",
+    "explanation": "Paying the employees the same salary means treating them fairly."
   },
-{
-    "id": 9,
-    "premise": "You should respect others' autonomy. Bob shys away from your attention.",
-    "hypothesis": "You should leave Bob in peace.",
-    "label": "Default reasoning",
-    "explanation": "Shying away from your attention suggests that someone doesn’t enjoy your company."
+  {
+    "id": 11,
+    "premise": "Everyone should be treated equally. Bob and John are students. Bob and John are taking a test.",
+    "hypothesis": "You should give Bob and John the same amount of time for the test.",
+    "label": "Instantiation",
+    "explanation": "Giving Bob and John the same amount of time means treating them equally."
   },
+
+  {
+    "id": 12,
+    "premise": "Each person should receive what they deserve. You have to decide who to award in a competition. Mary performed best in the competition.",
+    "hypothesis": "You should give the award to Mary.",
+    "label": "Instantiation",
+    "explanation": "The best performing candidate deserves the award."
+  }
 ]
