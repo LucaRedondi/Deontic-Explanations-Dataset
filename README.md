@@ -35,7 +35,7 @@ Here the missing step consists in establishing that two terms are equivalent. In
 - Hypothesis: You should not kill. 
 - Explanation: To say that killing is wrong is to say that you should not kill. 
 
-In some specific normative theories, the two propositions might actually have different meaning, just as in some factual context a young child might not be an infant. However, in normal circumstances the explanations provided above – both the epistemic and the deontic one – are to be accepted as valid. 
+In some specific normative theories, the two propositions might actually have different meaning (just as in some factual context a young child might not be an infant). However, in normal circumstances the explanations provided above – both the epistemic and the deontic one – are to be accepted as valid. 
 
 
 # 3.	Default reasoning
