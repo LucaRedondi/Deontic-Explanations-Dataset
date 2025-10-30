@@ -36,7 +36,7 @@ Group A - Applied ethics at large
 
 {
   "id": 5,
-  "premise": "If you push the button, one person will die; if you do not push the button, two people will die. You shall do no harm.",
+  "premise": "If you push the button, one person will die. If you do not push the button, two people will die. You shall do no harm.",
   "hypothesis": "You ought to push the button.",
   "label": "Conflict within one principle",
   "explanation": "Since harming others is bad, there is a prima facie obligation to avoid the one death and a prima facie obligation to avoid the two deaths. Because preventing greater harm has priority, you ought to push the button."
@@ -63,14 +63,7 @@ Group B - Bioethics (expecially, resource allocation)
   },
 
 {
-    "id": 8,
-    "premise": "You can give the only available kidney to a patient who has waited a very long time or to a patient with a slightly better prognosis, but not to both. You should treat people fairly.",
-    "hypothesis": "You ought to give the kidney to the patient who has waited longer.",
-    "label": "Conflict within one principle",
-    "explanation": "Since treating people fairly is good, there is a prima facie obligation to favor the better prognosis and a prima facie obligation to favor the person who has waited longer. In this case, fairness as equal chance takes priority."
-  },
-{
-  "id": 9,
+  "id": 8,
   "premise": "You can give the only available kidney to a child or to an adult, but not to both. You should promote others’ wellbeing. In precedent 1, you could give the only available kidney to a young patient or an older patient. In precedent 1, you ought to give the kidney to the young patient.",
   "hypothesis": "You ought to give the kidney to the child.",
   "label": "Conflict within one principle (A fortiori reasoning)",
@@ -78,7 +71,7 @@ Group B - Bioethics (expecially, resource allocation)
 },
 
 {
-  "id": 10,
+  "id": 9,
   "premise": "You can give the only available kidney to a patient who will die soon without it or to a patient whose condition is more stable, but not to both. You should promote others’ wellbeing.",
   "hypothesis": "You ought to give the kidney to the patient who will die soon.",
   "label": "Conflict within one principle",
