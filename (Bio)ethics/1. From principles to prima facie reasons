@@ -1,0 +1,91 @@
+From principles to prima facie reasons
+[
+  {
+    "id": 1,
+    "premise": "You shall do no harm.",
+    "hypothesis": "You shall not kill Mary.",
+    "label": "Specification",
+    "explanation": "Given that you shall do no harm, the fact that killing involves harming is a reason not to kill Mary."
+  },
+  {
+    "id": 2,
+    "premise": "You shall do no harm.",
+    "hypothesis": "You shall not injure John.",
+    "label": "Specification",
+    "explanation": "Given that you shall do no harm, the fact that injuring John harms him is a reason not to injure John."
+  },
+  {
+    "id": 3,
+    "premise": "You should promote others’ happiness. Mary is in need.",
+    "hypothesis": "You should help Mary.",
+    "label": "Specification",
+    "explanation": "Given that you should promote others’ happiness, the fact that Mary is in need is a reason to help her."
+  },
+  {
+    "id": 4,
+    "premise": "You should promote others’ wellbeing. Jane is in danger.",
+    "hypothesis": "You should save Jane.",
+    "label": "Specification",
+    "explanation": "Given that you should promote others’ wellbeing, the fact that Jane is in danger is a reason to save her."
+  },
+  {
+    "id": 5,
+    "premise": "You should respect others’ autonomy. Bob declined your proposal to meet at his place.",
+    "hypothesis": "You should not show up at Bob’s place.",
+    "label": "Specification",
+    "explanation": "Given that you should respect others’ autonomy, the fact that Bob declined your proposal is a reason not to go to his place."
+  },
+  {
+    "id": 6,
+    "premise": "People should be treated fairly. Two employees do the same job.",
+    "hypothesis": "You should pay the employees the same salary.",
+    "label": "Specification",
+    "explanation": "Given that people should be treated fairly, the fact that the employees do the same job is a reason to pay them the same salary."
+  },
+  {
+    "id": 7,
+    "premise": "Everyone should be treated equally. Bob and John are students. Bob and John are taking a test.",
+    "hypothesis": "You should give Bob and John the same amount of time for the test.",
+    "label": "Specification",
+    "explanation": "Given that everyone should be treated equally, the fact that Bob and John are in the same testing situation is a reason to give them the same amount of time."
+  },
+  {
+    "id": 8,
+    "premise": "Each person should receive what they deserve. Mary performed best in the competition.",
+    "hypothesis": "You should give the award to Mary.",
+    "label": "Specification",
+    "explanation": "Given that each person should receive what they deserve, the fact that Mary performed best is a reason to award her."
+  }
+]
+
+From principles to prima facie reasons via epistemic default reasoning
+[
+ {
+    "id": 9,
+    "premise": "You shall do no harm.",
+    "hypothesis": "You shall not trash talk Bob.",
+    "label": "Specification and default reasoning",
+    "explanation": "Trash talking typically causes distress. Given that you shall do no harm, the fact that trash talking causes distress is a reason not to trash talk Bob."
+  },
+{
+    "id": 10,
+    "premise": "You should help others. Bob is crying.",
+    "hypothesis": "You should comfort Bob.",
+    "label": "Specification and default reasoning",
+    "explanation": "Crying typically indicates distress. Given that you should help others, the fact that Bob is in distress is a reason to comfort him."
+  },
+{
+    "id": 11,
+    "premise": "You should respect others’ autonomy. Bob says that he is a vegetarian.",
+    "hypothesis": "You should not offer Bob any meat.",
+    "label": "Specification and default reasoning",
+    "explanation": "People who say they are vegetarians typically do not want meat. Given that you should respect others’ autonomy, the fact that Bob does not want meat is a reason not to offer him any."
+  },
+  {
+    "id": 12,
+    "premise": "You should respect others' autonomy. Bob shys away from your attention.",
+    "hypothesis": "You should leave Bob in peace.",
+    "label": "Specification and default reasoning",
+    "explanation": "Shying away typically indicates a desire for distance. Given that you should respect others’ autonomy, the fact that Bob wants distance is a reason to leave him in peace."
+  }
+]
