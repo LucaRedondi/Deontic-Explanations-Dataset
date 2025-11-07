@@ -8,16 +8,16 @@
   },
   {
     "id": 2,
-    "premise": "The patient is brain dead. Removing organs causes serious physical damage. You shall do no harm.",
+    "premise": "The patient is brain dead. Removing organs causes serious physical damage. Harming is bad.",
     "hypothesis": "You are permitted to remove the organs.",
     "label": "Undercut",
     "explanation": "Causing physical damage typically indicates harming a patient. Given that you shall do no harm, harming a patient is a reason against removing organs. But the patient is brain dead and no longer a subject of harm. So the principle does not generate a reason against removing the organs here."
   },
   {
     "id": 3,
-    "premise": "A treatment would prolong the patient’s life. The treatment would only extend severe suffering. You should promote others’ wellbeing.",
+    "premise": "A treatment would prolong the patient’s life. The treatment would only extend severe suffering. Promoting others’ wellbeing is good.",
     "hypothesis": "You are permitted not to give the treatment.",
     "label": "Undercut",
-    "explanation": "Prolonging life typically indicates a benefit. Given that you should promote others’ wellbeing, a genuine benefit is a reason to offer the treatment. But here the treatment brings no benefit and only extends suffering. So the principle does not generate a reason to give the treatment."
+    "explanation": "Prolonging life typically indicates a benefit. Given that promoting others’ wellbeing is good, a genuine benefit is a reason to offer the treatment. But here the treatment brings no benefit and only extends suffering. So the principle does not generate a reason to give the treatment."
   }
 ]
