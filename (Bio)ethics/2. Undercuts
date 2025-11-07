@@ -1,34 +1,23 @@
-Undercuts
 [
-{
-  "id": 1,
-  "premise": "The patient asks for a risky procedure. The patient has taken a strong sedative. You should respect others’ autonomy.",
-  "hypothesis": "You ought to wait before acting on the request.",
-  "label": "Undercutting condition (Autonomy requires competent choice)",
-  "explanation": "Respecting autonomy gives a reason to follow the request. But the patient is not fully competent. So the obligation to respect autonomy does not apply right now."
-}
-
-{
-  "id": 2,
-  "premise": "A medical procedure is risky. The patient is already dying. You shall do no harm.",
-  "hypothesis": "You are permitted to perform the procedure.",
-  "label": "Undercutting condition (Non-maleficence depends on context)",
-  "explanation": "Not causing harm gives a reason to avoid the procedure. But the patient is already dying. So the usual reason not to risk harm does not apply here."
-}
-
-{
-  "id": 3,
-  "premise": "Consent was given for organ donation. The patient is brain dead. Removing organs causes serious physical damage. You shall do no harm.",
-  "hypothesis": "You are permitted to remove the organs.",
-  "label": "Undercutting condition (Non-maleficence depends on the patient being alive)",
-  "explanation": "Not causing harm gives a reason to avoid removing the organs. But the patient is already dead. So the usual reason not to harm does not apply here."
-}
-
-{
-  "id": 4,
-  "premise": "A treatment would prolong the patient’s life. The treatment would only extend severe suffering. You should promote others’ wellbeing.",
-  "hypothesis": "You are permitted not to give the treatment.",
-  "label": "Undercutting condition (Beneficence requires real benefit)",
-  "explanation": "Helping others is good when it improves their wellbeing. But here the treatment would not help. So the usual reason to treat does not apply."
-}
+  {
+    "id": 1,
+    "premise": "The patient asks for a risky procedure. The patient has taken a strong sedative. You should respect others’ autonomy.",
+    "hypothesis": "You ought to wait before acting on the request.",
+    "label": "Undercut",
+    "explanation": "A request typically indicates a competent expression of will. Given that you should respect others’ autonomy, a competent expression of will is a reason to follow the request. But the patient is sedated and not competent. So autonomy does not generate a reason to follow the request here."
+  },
+  {
+    "id": 2,
+    "premise": "The patient is brain dead. Removing organs causes serious physical damage. You shall do no harm.",
+    "hypothesis": "You are permitted to remove the organs.",
+    "label": "Undercut",
+    "explanation": "Causing physical damage typically indicates harming a patient. Given that you shall do no harm, harming a patient is a reason against removing organs. But the patient is brain dead and no longer a subject of harm. So the principle does not generate a reason against removing the organs here."
+  },
+  {
+    "id": 3,
+    "premise": "A treatment would prolong the patient’s life. The treatment would only extend severe suffering. You should promote others’ wellbeing.",
+    "hypothesis": "You are permitted not to give the treatment.",
+    "label": "Undercut",
+    "explanation": "Prolonging life typically indicates a benefit. Given that you should promote others’ wellbeing, a genuine benefit is a reason to offer the treatment. But here the treatment brings no benefit and only extends suffering. So the principle does not generate a reason to give the treatment."
+  }
 ]
