@@ -2,86 +2,82 @@ Conflict of obligations from different principles
 Group A - Applied ethics at large
 [
 {
-  "id": 1,
-  "premise": "Bob asks if a dress suits him. You can tell a comforting lie or tell the harsh truth, but not both. You should promote others’ wellbeing. You should not lie.",
-  "hypothesis": "You ought to tell the truth.",
-  "label": "Conflict between different principles (Honesty vs. Beneficence)",
-  "explanation": "There is a prima facie obligation to tell a lie to promote Bob’s psychological wellbeing, and there is a prima facie obligation to tell the truth because you should not lie. In this case, telling the truth takes priority because Bob trusts you to be honest."
-}
-
+    "id": 1,
+    "premise": "Bob asks if a dress suits him. You can tell a comforting lie or tell the harsh truth, but not both. You should promote others’ wellbeing. You should not lie.",
+    "hypothesis": "You ought to tell the truth.",
+    "label": "Conflict between different principles (Honesty vs. Beneficence)",
+    "explanation": "Given that you should promote others’ wellbeing, Bob’s desire for reassurance is a reason to tell him the dress suits him. Given that you should not lie, the fact that saying it suits him would be false is a reason to tell the truth. Because Bob trusts you to be honest, you ought to tell Bob the truth."
+  },
 {
   "id": 2,
   "premise": "You just met Bob. You do not like how Bob is dressed. Bob asks if you like his outfit. You should be polite. You should not lie.",
   "hypothesis": "You should tell Bob he is dressed nicely.",
   "label": "Conflict between different principles (Honesty vs. Politeness)",
-  "explanation": "There is a prima facie obligation to tell the truth because you should not lie, and there is a prima facie obligation to tell Bob he is dressed nicely because you should be polite. In this case, politeness takes priority because you do not have a trust-based relationship with Bob."
+  "explanation": "It is typically unpolite to tell someone you do not like how they are dressed. Given the value of politeness, the fact that telling the truth would be unpolite is a reason to lie. Given that you should not lie, the fact that the statement would be false is a reason to tell the truth. In this case, politeness is more important, so you should tell Bob he is dressed nicely"
 },
-
 {
   "id": 3,
   "premise": "A murderer asks where your friend is hiding. You know where your friend is. The murderer wants to harm your friend. There is an absolute duty not to lie. You should promote others’ wellbeing.",
   "hypothesis": "You ought to tell the truth.",
   "label": "Conflict between different principles (Honesty vs. Beneficence)",
-  "explanation": "There is a prima facie obligation to protect your friend and a prima facie obligation not to lie. Because the duty not to lie is absolute, telling the truth takes priority."
+  "explanation": "Given that you should promote others’ wellbeing, the threat to your friend’s life is a reason to lie. Since you shall not lie, you have a reason to tell the truth. Because the duty not to lie is absolute, the reason to tell the truth prevails."
 },
-
 {
   "id": 4,
   "premise": "A murderer asks where your friend is hiding. You know where your friend is. The murderer wants to harm your friend. You should not lie. You should promote others’ wellbeing.",
   "hypothesis": "You ought to lie to protect your friend.",
   "label": "Conflict between different principles (Honesty vs. Beneficence)",
-  "explanation": "There is a prima facie obligation not to lie and a prima facie obligation to protect your friend’s life. Protecting your friend’s life takes priority over not lying."
-}
-
-{
-  "id": 5,
-  "premise": "You promised to give money to Bob. Bob lied to manipulate you into making the promise. Mary genuinely needs that money. You should keep your promises. You should promote others’ wellbeing.",
-  "hypothesis": "You ought to donate the money to Mary.",
-  "label": "Conflict between different principles with undercutting condition",
-  "explanation": "There is a prima facie obligation to give the money to Bob because you should keep your promises, and a prima facie obligation to help Mary because you should promote others’ wellbeing. But the promise was made under manipulation. So the usual obligation to keep a promise does not apply here."
-}
+  "explanation": "Since you shall not lie, you have a reason to tell the truth. Given that you should promote others’ wellbeing, the threat to your friend’s life is a reason to lie. Because protecting your friend’s life is the stronger reason, you ought to lie."
+},
+ {
+    "id": 5,
+    "premise": "You promised to give money to Bob. Bob lied to manipulate you into making the promise. Mary genuinely needs that money. You should keep your promises. You should promote others’ wellbeing.",
+    "hypothesis": "You ought to donate the money to Mary.",
+    "label": "Conflict between different principles with undercutting condition",
+    "explanation": "Given that you should keep your promises, the fact that you promised Bob is normally a reason to give him the money. Given that you should promote others’ wellbeing, Mary’s genuine need is a reason to donate the money to her. But Bob manipulated you into making the promise, so the reason to keep the promise is undercut."
+  }
 ]
 
 
 Group B - Bioethics
 [
 {
-  "id": 6,
-  "premise": "A patient refuses a medical treatment that would significantly improve their health. You should promote others’ wellbeing. You should respect others’ autonomy.",
-  "hypothesis": "You ought to respect the patient’s refusal.",
-  "label": "Conflict between different principles (Autonomy vs. Beneficence)",
-  "explanation": "There is a prima facie obligation to benefit the patient by providing the treatment and a prima facie obligation to respect their decision. In this situation, honoring the patient’s autonomous choice takes priority."
-}
+    "id": 6,
+    "premise": "A patient refuses a medical treatment that would significantly improve their health. You should promote others’ wellbeing. You should respect others’ autonomy.",
+    "hypothesis": "You ought to respect the patient’s refusal.",
+    "label": "Conflict between different principles (Autonomy vs. Beneficence)",
+    "explanation": "Given that you should promote others’ wellbeing, the potential health benefit is a reason to provide the treatment. Given that you should respect autonomy, the patient’s refusal is a reason not to provide it. The reason grounded in autonomy is stronger here."
+  },
 
-{
-  "id": 7,
-  "premise": "A patient insists on receiving a procedure that would likely cause significant harm without offering any medical benefit. You should respect others’ autonomy. You shall do no harm.",
-  "hypothesis": "You ought not to perform the procedure.",
-  "label": "Conflict between different principles (Autonomy vs. Non-maleficence)",
-  "explanation": "There is a prima facie obligation to honor the patient’s autonomous request and a prima facie obligation to avoid causing harm. In this case, preventing serious harm takes priority over respecting the request."
-}
+ {
+    "id": 7,
+    "premise": "A patient insists on receiving a procedure that would likely cause significant harm without offering any medical benefit. You should respect others’ autonomy. You shall do no harm.",
+    "hypothesis": "You ought not to perform the procedure.",
+    "label": "Conflict between different principles (Autonomy vs. Non-maleficence)",
+    "explanation": "Given that you should respect autonomy, the patient’s request is a reason to perform the procedure. Given that you shall do no harm, the expected medical harm is a reason not to perform it. Because avoiding serious harm carries greater weight, the reason not to perform the procedure is stronger."
+  },
 
-{
-  "id": 8,
-  "premise": "A father refuses a necessary treatment for his minor son, but the treatment would greatly improve the child's health. You should respect others’ autonomy. You should promote others’ wellbeing.",
-  "hypothesis": "You ought to provide the treatment to the son.",
-  "label": "Conflict between different principles (Autonomy vs. Beneficence)",
-  "explanation": "There is a prima facie obligation to respect the father’s decision and a prima facie obligation to benefit the child. In this case, promoting the child’s wellbeing takes priority over honoring the parental choice."
-}
+ {
+    "id": 8,
+    "premise": "A father refuses a necessary treatment for his minor son, but the treatment would greatly improve the child's health. You should respect others’ autonomy. You should promote others’ wellbeing.",
+    "hypothesis": "You ought to provide the treatment to the son.",
+    "label": "Conflict between different principles (Autonomy vs. Beneficence)",
+    "explanation": "Given that you should respect autonomy, the father’s refusal is a reason not to treat the child. Given that you should promote others’ wellbeing, the child’s need and potential benefit are reasons to provide the treatment. Because the child’s wellbeing is more important, the reason to treat is stronger."
+  },
 
-{
-  "id": 9,
-  "premise": "The physician knows that the patient is terminally ill. The news will cause great distress. The patient explicitly asks to know the truth. You should promote others’ wellbeing. You should respect others’ autonomy.",
-  "hypothesis": "You ought to tell the patient the truth.",
-  "label": "Conflict between different principles (Autonomy vs. Beneficence)",
-  "explanation": "There is a prima facie obligation to promote the patient’s wellbeing and a prima facie obligation to respect the patient’s autonomy. In this case, respecting the patient’s autonomy takes priority."
-},
+ {
+    "id": 9,
+    "premise": "The physician knows that the patient is terminally ill. The news will cause great distress. The patient explicitly asks to know the truth. You should promote others’ wellbeing. You should respect others’ autonomy.",
+    "hypothesis": "You ought to tell the patient the truth.",
+    "label": "Conflict between different principles (Autonomy vs. Beneficence)",
+    "explanation": "Given that you should promote others’ wellbeing, the patient’s expected distress is a reason not to disclose the news. Given that you should respect autonomy, the patient’s explicit request is a reason to tell the truth. The reason grounded in autonomy is stronger here."
+  },
 
-{
-  "id": 10,
-  "premise": "A patient refuses a simple and life-saving treatment. The patient is severely confused because of a high fever. You should respect others’ autonomy. You should promote others’ wellbeing.",
-  "hypothesis": "You ought to give the treatment.",
-  "label": "Undercutting condition (Autonomy requires competent choice)",
-  "explanation": "There is a prima facie obligation to follow the patient’s refusal because you should respect autonomy, and a prima facie obligation to give the treatment because you should promote wellbeing. But the refusal was made without mental competence. So the usual obligation to respect autonomy does not apply here."
-}
+ {
+    "id": 10,
+    "premise": "A patient refuses a simple and life-saving treatment. The patient is severely confused because of a high fever. You should respect others’ autonomy. You should promote others’ wellbeing.",
+    "hypothesis": "You ought to give the treatment.",
+    "label": "Undercutting condition (Autonomy requires competent choice)",
+    "explanation": "Given that you should respect autonomy, the patient’s refusal would normally be a reason not to treat. Given that you should promote others’ wellbeing, the life-saving benefit is a reason to treat. But the refusal was made without mental competence, so it does not express an autonomous decision. Thus the reason not to treat is undercut, and the reason to treat remains."
+  }
 ]
