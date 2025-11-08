@@ -29,7 +29,8 @@ Consider the example:
 - Hypothesis: An infant is outside.
 - Explanation: A young child is an infant.
 
-Here the missing step consists in establishing that two terms are equivalent. In natural language, we can have equivalent deontic statements expressed using different terms:
+Here the missing step consists in establishing that two terms are equivalent. 
+In practical reasoning, we can express equivalent deontic statements expressed using different terms:
 
 - Premises: It is obligatory not to kill.
 - Hypothesis: You should not kill. 
