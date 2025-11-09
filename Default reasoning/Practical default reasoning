@@ -77,6 +77,20 @@ Reason-based explanations
     "hypothesis": "You should not eat the peanut cookies.",
     "label": "normative reason against",
     "explanation": "The fact that you have a severe allergy to peanuts is a reason against eating the peanut cookies."
-  }
+  },
+{
+  "id": 5,
+  "premise": "You promised to return a borrowed book.",
+  "hypothesis": "You should return the book.",
+  "label": "reason for",
+  "explanation": "The fact that you made a promise is a reason for returning the book."
+},
+{
+  "id": 6,
+  "premise": "An animal is trapped and frightened.",
+  "hypothesis": "You should free the animal.",
+  "label": "reason for",
+  "explanation": "The fact that the animal is suffering is a reason for helping it."
+}
 ]
 
