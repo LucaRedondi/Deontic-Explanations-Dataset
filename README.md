@@ -86,7 +86,7 @@ The way we frame moral reasoning is inspired by principlism, i.e., the most infl
 <img width="1503" height="869" alt="Screenshot 2025-10-30 145901" src="https://github.com/user-attachments/assets/4521ab83-3f04-46a0-865b-2c6e646cb3a3" />
 The premises include both factual information about the circumstance of choice and information about morality in the form of general principles (or - depending on the underlying moral theory - rules, duties, norms...). To decide a case, one needs to accomplish two tasks:
 1)	Use the principles to identify the relevant prima facie reasons.
-2)	Weigh the prima facie obligations – possibly resolving the conflict between them – to reach an all-things-considered evaluation of the case.
+2)	Weigh the prima facie reasons – possibly resolving the conflict between them – to reach an all-things-considered evaluation of the case.
 Each of the five subfolders explore one aspect of one of these reasoning steps.  
 
 In the first subfolder, we present cases in which the second step is trivial, typically because there is only one prima facie obligation. This lets us concentrate on the first inference step: detaching concrete prima facie obligations from general moral principles. We frame this step by drawing on two traditions.
