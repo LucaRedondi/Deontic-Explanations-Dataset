@@ -68,7 +68,7 @@
   "premises": "The patient wants to die. The patient needs the help of the physician. The patient is suffering. The suffering cannot be avoided. The physician does not want to help. People should decide for themselves. Promoting others’ wellbeing is good. We should not kill.",
   "hypothesis": "It is morally permitted for the physician not to help the patient to die.",
   "label": "Multiple principle conflict – Resolution by ranking and undercut",
-  "explanation": "Given that people should decide for themselves, the patient’s desire is a reason to help. Given that we should promote others’ wellbeing, reducing suffering is a reason to help. Causing death is a reason not to help. The physician’s own autonomous refusal is also a reason not to help. Taken together, the reasons not to help are stronger, so not helping is permitted."
+  "explanation": "Given that people should decide for themselves, the patient’s desire is a reason to help. Given that we should promote others’ wellbeing, reducing suffering is a reason to help. Given that we should not kill, the fact tha hleping causes death is a reason not to help. The physician’s own autonomous refusal is also a reason not to help. Taken together, the reasons not to help are stronger, so not helping is permitted."
 },
 
 {
@@ -92,7 +92,7 @@
   "premises": "The patient cannot give consent. The patient is suffering. The suffering cannot be avoided. The patient is terminally ill. In precedent 1, the patient could not give consent, suffered, and stopping treatment was permitted. Promoting others’ wellbeing is good.",
   "hypothesis": "It is morally permitted to stop treatment.",
   "label": "Case-based reasoning",
-  "explanation": "Given that promoting others’ wellbeing is good, preventing unnecessary suffering is a reason to stop treatment. Since the present case is like the precedent where stopping treatment was permitted, the same verdict applies here."
+  "explanation": "Given that promoting others’ wellbeing is good, reducing suffering is normally a reason to continue treatment, and preventing unnecessary suffering is a reason to stop treatment. Since the present case is like the precedent where stopping treatment was permitted, the same verdict applies here."
 },
 
 {
