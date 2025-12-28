@@ -9,6 +9,7 @@ In these cases, the validity of the explanation depends on some default assumpti
         "hypothesis": "A baby is unhappy.",
         "label": "entailment",
         "explanation": " If the infant is crying, it can be assumed that they are unhappy."
+Original source: e-SNLI dataset.
     },
     {
         "id": 2,
@@ -16,6 +17,7 @@ In these cases, the validity of the explanation depends on some default assumpti
         "hypothesis": "A man walks down the street in winter.",
         "label": "entailment",
         "explanation": " Since the man is walking on a snowy day down a street, it is likely winter."
+Original source: e-SNLI dataset.
     },
     {
         "id": 3,
@@ -23,6 +25,7 @@ In these cases, the validity of the explanation depends on some default assumpti
         "hypothesis": "Two men are inside.",
         "label": "entailment",
         "explanation": "Two men sleeping on a white bed typically implies that they are inside."
+Original source: e-SNLI dataset.
     },
     {
         "id": 4,
@@ -30,6 +33,7 @@ In these cases, the validity of the explanation depends on some default assumpti
         "hypothesis": "Two people standing outside an ice cream stand.",
         "label": "entailment",
         "explanation": " If the people are near the stand they are outside it."
+Original source: e-SNLI dataset.
     },
 
     {
@@ -38,5 +42,6 @@ In these cases, the validity of the explanation depends on some default assumpti
         "hypothesis": "The man is outside.",
         "label": "entailment",
         "explanation": " The man is on a dirty sidewalk. Sidewalks are found outdoors, therefore, the man is outside"
+Original source: e-SNLI dataset.
     },
 ]
