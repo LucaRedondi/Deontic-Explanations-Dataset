@@ -9,6 +9,7 @@ In the following cases, the validity of the explanation lies in the recognition 
         "hypothesis": "The couple is at a club.",
         "label": "entailment",
         "explanation": "A cute couple at a club means a couple is at a club."
+Original source: e-SNLI dataset.
     },
     {
         "id": 2,
@@ -16,6 +17,7 @@ In the following cases, the validity of the explanation lies in the recognition 
         "hypothesis": "A group of men are looking in a train.",
         "label": "entailment",
         "explanation": "Seven men are a group of men."
+Original source: e-SNLI dataset.
     },
     {
         "id": 3,
@@ -23,6 +25,7 @@ In the following cases, the validity of the explanation lies in the recognition 
         "hypothesis": "A policeman is herding pedestrians.",
         "label": "entailment",
         "explanation": "Directing a crowd of people is other expression of  herding pedestrians."
+Original source: e-SNLI dataset.
     },
     {
         "id": 4,
@@ -30,6 +33,7 @@ In the following cases, the validity of the explanation lies in the recognition 
         "hypothesis": "There is a lady with a book.",
         "label": "entailment",
         "explanation": "The lady is looking through a photo album which is a type of book."
+Original source: e-SNLI dataset.
     },
     {
         "id": 5,
@@ -37,5 +41,6 @@ In the following cases, the validity of the explanation lies in the recognition 
         "hypothesis": "Two men are dressed in makeup",
         "label": "entailment",
         "explanation": "Red makeup is a type of makeup."
+Original source: e-SNLI dataset.
     }
 ]
