@@ -95,8 +95,18 @@ In subfolders 2, 3 and 4, we explore the reasoning patterns that emerge in the s
 The cases in subfolder 5 are the most complex. They form a roster of possible scenarios concerning the ethical issues around the practice of euthanasia. Their contribution to the repository consists in their complexity: they aim to approximate the richness and ambiguity of real life choices. We choose euthanasia for two reasons. First, in cases that involve euthanasia, different principles are relevant together, giving rise to internal and external conflict. Second, euthanasia is a topic that encompasses a variety of different scenarios: passive and active euthanasia, suicide, refusal of treatment... Thus, the topic is well-suited to constructing a cluster of different cases, that involve different factual contexts, different nuances in conceiving the ethical principles and different strategies to handle conflict between principles.    
 
 # References:
+Selim Berker. 2022. The deontic, the evaluative, and the fitting. In *Fittingness: Essays in the Philosophy of Normativity*. Oxford University Press.
 
-Horty on Reasons, The fundamentals, The weight of reasons, Ross' pluralism, DDLE, CJ-DDL, Principlism, Other datasets.
+Chris Tucker. 2025. *The weight of reasons: A framework for ethics*. Oxford University Press.
+
+William David Ross. 2002. *The right and the good*. Oxford University Press.
+
+D.M. Gabbay, J. Horty, X. Parent, R. van der Meyden, and L. van der Torre, editors. 2013. *Handbook of Deontic Logic and Normative Systems*. College Pub- 737
+lications. 
+
+John F. Horty, *Reasons as Defaults* (2012; online edn, Oxford Academic, 20 Sept. 2012), https://doi.org/10.1093/acprof:oso/9780199744077.001.0001, accessed 21 Dec. 2025. 
+
+James F. Childress Tom L. Beauchamp. 1979. *Principles of biomedical ethics*. Oxford University Press. 
 
 # References to other Datasets
 We reused some cases for existing Datasets, in particular: …
