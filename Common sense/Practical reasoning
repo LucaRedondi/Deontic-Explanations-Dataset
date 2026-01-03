@@ -5,7 +5,7 @@ Common sense - Practical reasoning
   "id": 1,
   "premise": "Helping is permitted.",
   "hypothesis": "You may help.",
-  "label": "natural language complexity",
+  "label": "Natural language complexity",
   "explanation": "To say that helping is permitted is to say that you may help."
 }, 
 
@@ -13,7 +13,7 @@ Common sense - Practical reasoning
     "id": 2,
     "premise": "Killing is forbidden.",
     "hypothesis": "You ought not to kill.",
-    "label": "natural language complexity",
+    "label": "Natural language complexity",
     "explanation": "To say that killing is forbidden is to say that you ought not to kill."
   },
 
@@ -21,7 +21,7 @@ Common sense - Practical reasoning
     "id": 3,
     "premise": "Helping others is obligatory.",
     "hypothesis": "You ought to help others.",
-    "label": "natural language complexity",
+    "label": "Natural language complexity",
     "explanation": "To say that helping others is obligatory is to say that you ought to help others."
   },
 
@@ -29,7 +29,7 @@ Common sense - Practical reasoning
     "id": 4,
     "premise": "Respecting people’s decisions is required.",
     "hypothesis": "People’s decisions should be respected.",
-    "label": "natural language complexity",
+    "label": "Natural language complexity",
     "explanation": "To say that respecting people’s decisions is required is to say that people’s decisions should be respected."
   },
 
@@ -37,7 +37,7 @@ Common sense - Practical reasoning
     "id": 5,
     "premise": "Treating people fairly is mandatory.",
     "hypothesis": "People should be treated fairly.",
-    "label": "natural language complexity",
+    "label": "Natural language complexity",
     "explanation": "To say that treating people fairly is mandatory is to say that people should be treated fairly."
   }
 ]
