@@ -10,7 +10,7 @@ Each case is composed of a set of premises, a hypothesis, and an explanation. Al
 - Hypothesis: You should not show up at Bob’s place.
 - Explanation: Since Bob declined your proposal to meet at his place, he is likely not to want you at his place.  Given that you should respect others' autonomy, the fact that Bob doesn’t want you at his place is a reason for not going.
 
-# Organization of the Dataset 
+# Organization of the dataset 
 The dataset is organized into different groups that target different reasoning patterns. They are defined by their “missing step”; i.e., what is missing between the premises and the hypothesis.
 
 # 1.	Classical logic
@@ -97,7 +97,7 @@ The cases in subfolder 5, **“A case study: euthanasia”**, are the most compl
  - Hypothesis: It is morally permitted for the patient to refuse treatment.
 - Explanation: Given that people should decide for themselves, the patient’s desire to refuse therapy is a reason to allow refusal. Since no competing reason overrides it here, refusal is permitted.
 
-# References to other Datasets
+# References to other datasets
 We adapt 10 cases from the e-SNLI dataset (5 in the folder on common sense, 5 in the folder on Default reasoning) and 5 from the dataset introduced in [Holliday et al. 2024] (3 in the folder on classical logic, and 2 in the folder on modalities). The original source, when present, is indicated at the bottom of each case. 
 
 # References:
