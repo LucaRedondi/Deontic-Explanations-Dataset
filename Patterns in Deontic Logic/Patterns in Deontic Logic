@@ -1,4 +1,4 @@
-Factual detachment/Application
+1.Factual detachment/Application
 
 Id1
 Pr: "It is raining. Given that it is raining, carrying an umbrella is obligatory."
@@ -26,7 +26,7 @@ Hy: "Following traffic laws is required."
 Ex: ""
 
 
-Violations
+2.Violations
 
 Id6
 Pr: "You promised to call your friend. You did not call your friend. Given that you promised, calling your friend is obligatory."
@@ -54,10 +54,81 @@ Hy: "Evacuating the building was required, but you did not evacuate."
 Ex: ""
 
 
-Moral conflict
+3.Moral conflict
+3.1. Incompatible oughts
 Id11
 Pr: "You promised to attend your friend's wedding. You also promised to attend an important work meeting at the same time. Given that you promised your friend, attending the wedding is obligatory. Given that you promised your employer, not attending the wedding is obligatory."
 Hy: "Attending the wedding is obligatory and not attending the wedding is obligatory."
 Ex: ""
 
+Id12
+Pr: "You agreed to keep a secret. You are also required by law to disclose that information. Given that you agreed to keep a secret, keeping it is obligatory. Given that you are legally required to disclose it, not keeping it is obligatory."
+Hy: "It ought to be that you keep the secret and not keep the secret."
+Ex: ""
 
+3.2. Non-explosion
+
+Id13
+Pr: "You promised to attend your friend's wedding. You are also required to attend a mandatory work meeting at the same time. Given that you promised your friend, attending the wedding is obligatory. Given that you must attend the work meeting, not attending the wedding is obligatory."
+Hy: "It is not the case that watering the plants is obligatory."
+Ex: ""
+
+Id14
+Pr: "You agreed to submit a confidential report. You are also instructed to share all project data with the team. Given that the report is confidential, not sharing it is obligatory. Given that you must share all project data, sharing it is obligatory."
+Hy: "It is not the case that cleaning the office is obligatory."
+Ex: ""
+
+Id15
+Pr: "You promised to help your friend move house. You are also required to stay at work for an emergency shift. Given that you promised your friend, helping them move is obligatory. Given that you must stay at work, not helping them move is obligatory."
+Hy: "Helping your friend move is obligatory and it is not obligatory to wash the car."
+Ex: ""
+
+3.3. Inevitable violation
+Id16
+Pr: "You promised to attend your friend's wedding. You are also required to attend a mandatory work meeting at the same time. Given that you promised your friend, you ought to attend the wedding. Given that you must attend the work meeting, you ought not attend the wedding."
+Hy: "You cannot avoid violating an obligation."
+Ex: ""
+
+Id17
+Pr: "You promised your child you would pick them up from school. Your boss requires you to stay late at work for an urgent task. Given that you promised your child, you ought to pick them up. Given that your boss requires you to stay, you ought not pick them up."
+Hy: "You cannot comply with all obligations."
+Ex: ""
+
+Id18
+Pr: "You agreed to attend a close friend’s graduation ceremony. You are also required to sit an important exam scheduled at the same time. Given that you agreed to attend the ceremony, you ought to go. Given that you must sit the exam, you ought not go."
+Hy: "You are in a dilemma."
+Ex: ""
+
+3.4 Resolution by ranking
+Id19
+Pr: "You promised to help your friend move. You also casually agreed to attend a social gathering at the same time. Given that you promised your friend, helping them move is obligatory. Given that you agreed to attend the gathering, not attending it is forbidden. The obligation to help your friend is stronger."
+Hy: "It ought to be that you help your friend move."
+Ex: ""
+
+Id20
+Pr: "You encounter a person who is injured and needs immediate assistance. You also planned to attend a casual meetup with friends. Given that the person is in need, helping them is obligatory. Given that you planned the meetup, not attending it is forbidden. The obligation to help the person in need is stronger."
+Hy: "It ought to be that you help the injured person."
+Ex: ""
+
+3.5 Forbidden conflict
+Id21
+Pr: "You are caring for a sick relative. Given that you are caring for them, staying at home ought to be. If you accept an urgent work assignment, not staying at home will be obligatory."
+Hy: "Accepting an urgent work assignment is forbidden."
+Ex: ""
+
+Id22
+Pr: "You are scheduled to give a presentation at a conference. Given that you are scheduled, attending the conference ought to be. If you commit to a simultaneous client meeting, not attending the conference will be obligatory."
+Hy: "Committing to the client meeting is forbidden."
+Ex: ""
+
+Id23
+Pr: "You are expected to attend an important family dinner. Given that you are expected, attending the dinner ought to be. If you accept a last-minute invitation to another event at the same time, not attending the dinner will be obligatory."
+Hy: "Accepting the other invitation is forbidden."
+Ex: ""
+
+
+4. Contrary to duties.
+Id24
+Pr: "Submitting your assignment on time is obligatory. The assignment was not submitted on time. Given that it was not submitted, it ought to be that you inform your instructor."
+Hy: "Informing your instructor is obligatory."
+Ex: ""
