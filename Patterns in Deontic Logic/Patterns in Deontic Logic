@@ -163,11 +163,36 @@ Hy: "There ought to be no fence."
 Ex: ""
 
 Id30
-Pr: "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog on the premises, there ought to be a white fence. There is a dog."
+Pr: "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a dog."
 Hy: "There ought to be a white fence."
 Ex: ""
 
 Id31
-Pr: "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog on the premises, there ought to be a white fence. There is a dog."
+Pr: "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a dog."
 Hy: "Having no fence is not obligatory in this case."
 Ex: ""
+
+Id32
+Pr: "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a fence."
+Hy: "The fence ought to be white."
+Ex: ""
+
+Id33
+Pr: "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a fence."
+Hy: "There ought to be a white fence."
+Ex: ""
+
+Id34
+Id32
+Pr: "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a fence."
+Hy: "There ought to be no fence."
+Ex: ""
+
+Id35
+Id32
+Pr: "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a fence."
+Hy: "There ought to be no fence, but since there is a fence, it should be white."
+Ex: ""
+
+
+7. Contrary to duties and pseudo-conflict
