@@ -132,3 +132,42 @@ Id24
 Pr: "Submitting your assignment on time is obligatory. The assignment was not submitted on time. Given that it was not submitted, it ought to be that you inform your instructor."
 Hy: "Informing your instructor is obligatory."
 Ex: ""
+
+Id25
+Pr: "You are required to attend a mandatory safety training. You did not attend the training. Given that you did not attend, it ought to be that you reschedule it."
+Hy: "You should have attended the safety training and you did not."
+Ex: ""
+
+Id26
+Pr: "You are required to submit your tax return by the deadline. You did not submit it on time. Given that you did not submit it, it ought to be that you pay a late fee."
+Hy: "You should have submitted your tax return, not that you must pay a late fee."
+Ex: ""
+
+Contrary to duties and merely apparent conflict
+
+5. Exceptions
+Id27
+Pr: "You are feeling very ill. It ought to be that you go to work. Given that you are feeling very ill, it ought to be that you do not go to work."
+Hy: "It ought to be that you do not go to work."
+Ex: ""
+
+Id28
+Pr: "You are experiencing severe flu symptoms. It ought to be that you go to work. Given that you are experiencing severe flu symptoms, it ought to be that you do not go to work."
+Hy: "You are under no obligation to go to work."
+Ex: ""
+
+6. Exceptions and contrary to duties: Cottage regulations' paradox
+Id29
+Pr: "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence."
+Hy: "There ought to be no fence."
+Ex: ""
+
+Id30
+Pr: "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog on the premises, there ought to be a white fence. There is a dog."
+Hy: "There ought to be a white fence."
+Ex: ""
+
+Id31
+Pr: "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog on the premises, there ought to be a white fence. There is a dog."
+Hy: "Having no fence is not obligatory in this case."
+Ex: ""
