@@ -196,3 +196,18 @@ Ex: ""
 
 
 7. Contrary to duties and pseudo-conflict
+{
+  "id": 36,
+  "premise": "You ought to go visiting your neighbors. If you go, you ought to tell that you are going. If you don't go, you ought not to tell that you are going. You don't go.",
+  "hypothesis": "You ought not to tell that you are going.",
+  "label": "entailment (Factual detachment)",
+  "explanation": "Since not going entails the obligation not to tell that you are going, and it is a fact that you do not go, the unconditional obligation not to tell follows by factual detachment."
+},
+
+{
+  "id": 37,
+  "premise": "You ought to go visiting your neighbors. If you go, you ought to tell that you are going. If you don't go, you ought not to tell that you are going. You don't go.",
+  "hypothesis": "You ought to tell that you are going.",
+  "label": "entailment (Deontic detachment)",
+  "explanation": "Since telling that you are going is obligatory if you go, and going is itself obligatory, deontic detachment yields the unconditional obligation to tell that you are going despite the factual proposition that you do not go."
+}
