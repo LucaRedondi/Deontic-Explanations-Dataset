@@ -1,1 +1,63 @@
+Factual detachment/Application
+
+Id1
+Pr: "It is raining. Given that it is raining, carrying an umbrella is obligatory."
+Hy: "Carrying an umbrella is obligatory."
+Ex: ""
+
+Id2
+Pr: "You borrowed a book from the library. Given that you borrowed it, returning it by the due date is expected."
+Hy: "Returning it by the due date is expected."
+Ex: ""
+
+Id3
+Pr: "You made a promise. Given that you made a promise, keeping it is obligatory."
+Hy: "Keeping the promise is obligatory."
+Ex: ""
+
+Id4
+Pr: "There is a fire alarm. Given that there is a fire alarm, evacuating the building must be done."
+Hy: "Evacuating the building must be done."
+Ex: ""
+
+Id5
+Pr: "You are driving. Given that you are driving, following traffic laws is required."
+Hy: "Following traffic laws is required."
+Ex: ""
+
+
+Violations
+
+Id6
+Pr: "You promised to call your friend. You did not call your friend. Given that you promised, calling your friend is obligatory."
+Hy: "You ought to have called your friend, but you did not."
+Ex: ""
+
+Id7
+Pr: "The assignment is due today. The assignment was not submitted. Given that it is due today, submitting it is obligatory."
+Hy: "The assignment ought to have been submitted, but it was not."
+Ex: ""
+
+Id8
+Pr: "You are at a red traffic light. You did not stop. Given that you are at a red light, stopping is obligatory."
+Hy: "You ought to have stopped, but you did not."
+Ex: ""
+
+Id9
+Pr: "You promised to call your friend. You did not call your friend. Given that you promised, calling your friend is required."
+Hy: "You were required to call your friend, but you did not."
+Ex: ""
+
+Id10
+Pr: "There is a fire alarm. You did not evacuate the building. Given that there is a fire alarm, evacuating is required."
+Hy: "Evacuating the building was required, but you did not evacuate."
+Ex: ""
+
+
+Moral conflict
+Id11
+Pr: "You promised to attend your friend's wedding. You also promised to attend an important work meeting at the same time. Given that you promised your friend, attending the wedding is obligatory. Given that you promised your employer, not attending the wedding is obligatory."
+Hy: "Attending the wedding is obligatory and not attending the wedding is obligatory."
+Ex: ""
+
 
