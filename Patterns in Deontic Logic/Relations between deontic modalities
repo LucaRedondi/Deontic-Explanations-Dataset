@@ -1,1 +1,140 @@
+From forbiddingness
+[   
+{
+        "id": 1,
+        "premise": "You are not allowed to park here.",
+        "hypothesis": "You are obliged not to park here.",
+        "label": "Obligation and forbiddenness",
+        "explanation": "If an action is forbidden, then not doing that action becomes obligatory."
+    },
+    {
+        "id": 2,
+        "premise": "It is forbidden to access the confidential files.",
+        "hypothesis": "You are not permitted to access the confidential files.",
+        "label": "Forbiddenness and permission",
+        "explanation": "Something is forbidden if and only if it is not permitted."
+    }
+{
+        "id": 3,
+        "premise":  "You are obliged not to park here.",
+        "hypothesis":"You are not allowed to park here.",
+        "label": "Obligation and forbiddenness",
+        "explanation": "If an not doing an action is obligatory, then that action is forbidden."
+    },
+    {
+        "id": 4,
+        "premise":"You are not permitted to access the confidential files.",
+        "hypothesis": "It is forbidden to access the confidential files.",
+        "label": "Forbiddenness and permission",
+        "explanation": "Something is forbidden if and only if it is not permitted."
+    }
+]
 
+From permission
+[
+ {
+        "id": 5,
+        "premise": "You are permitted to submit the assignment.",
+        "hypothesis": "Not submitting the assignment is not obligatory.",
+        "label": "Obligation and permission",
+        "explanation": "If something is permitted, then its negation is not obligatory."
+    },
+ {
+        "id": 6,
+        "premise": "You are permitted to submit the assignment.",
+        "hypothesis": "Submitting the assignment is not forbidden.",
+        "label": "Obligation and permission",
+        "explanation": "If something is permitted, then it is not forbidden."
+    },
+ {
+        "id": 7,
+        "premise": "Not submitting the assignment is not obligatory.",
+        "hypothesis": "You are permitted to submit the assignment.",
+        "label": "Obligation and permission",
+        "explanation": "If not doing something is not obligatory, then that action is permissible."
+    },
+ {
+        "id": 8,
+        "premise": "Submitting the assignment is not forbidden."
+        "hypothesis": "You are permitted to submit the assignment.",
+        "label": "Obligation and permission",
+        "explanation": "If something is not forbidden, then it is permissible."
+    },
+
+]
+
+
+From obligation
+[
+{"id": 9
+"premise": "It is obligatory to help others in need.",
+"hypothesis": "It is forbidden not to help others in need.",
+"explanation": "If something is obligatory, then its negation is forbidden."
+}
+
+{"id": 10
+"premise": "It is forbidden not to help others in need.",
+"hypothesis": "It is obligatory to help others in need.",
+"explanation": "If not doing something is forbidden, then that action is obligatory."
+}
+
+ {
+        "id": 11,
+        "premise": "You are obliged to submit the assignment.",
+        "hypothesis": "Not submitting the assignment is not permitted.",
+        "label": "Obligation and permission",
+        "explanation": "If something is obligatory, then its negation is not permitted."
+    },
+
+ {
+        "id": 12,
+        "premise": "Not submitting the assignment is not permitted.",
+        "hypothesis": "You are obliged to submit the assignment.",
+        "label": "Obligation and permission",
+        "explanation": "If it is not permitted to refrain from doing something, then that action is obligatory."
+    },
+]
+
+
+Extras:
+[
+    {
+        "id": 13,
+        "premise": "You are obliged to submit the assignment.",
+        "hypothesis": "You are permitted to submit the assignment.",
+        "label": "Obligation and permission",
+        "explanation": "If something is obligatory, then it is permitted."
+    },
+{
+        "id": 14,
+        "premise": "You are not permitted to steal.",
+        "hypothesis": "You are not obliged to steal.",
+        "label": "Obligation and permission",
+        "explanation": "If something is not permitted, then it is also not obligatory."
+    },
+
+Aggregation
+[{
+"Id": 15
+"Pr": "You ought to finish your homework. You ought to clean your room."
+"Hy": "You ought to finish your homework and clean your room."
+"label": "Obligation - Aggregation"
+"Ex": ""
+}
+
+{
+  "Id": 16,
+  "Pr": "You must not cheat on the exam. You must not talk during the test.",
+  "Hy": "You must not cheat on the exam and talk during the test.",
+  "label": "Forbiddingness - Aggregation",
+  "Ex": ""
+}
+
+
+{
+  "Id": 18,
+  "Pr": "You can drink beer. You can drive.",
+  "Hy": "You cannot drink beer and drive.",
+  "label": "Permission does not aggregate",
+  "Ex": "Each action is permitted individually, but their combination is forbidden."
+]
