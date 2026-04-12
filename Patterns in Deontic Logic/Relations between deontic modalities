@@ -133,8 +133,8 @@ Aggregation
 
 {
   "Id": 17,
-  "Pr": "You can drink beer. You can drive. You must not put others in danger. Drinking beer and driving is dangerous.",
-  "Hy": "You cannot drink beer and drive.",
+  "Pr": "You are permitted to drink beer. You are permitted to drive. You must not put others in danger. Drinking beer and driving is dangerous.",
+  "Hy": "You are not permitted to drink beer and drive.",
   "label": "Permission does not aggregate",
   "Ex": "Each action is permitted individually, but their combination is forbidden."
 ]
