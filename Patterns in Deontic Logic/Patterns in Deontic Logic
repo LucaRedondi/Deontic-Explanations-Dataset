@@ -34,12 +34,12 @@ Hy: "You ought to have called your friend, but you did not."
 Ex: ""
 
 Id7
-Pr: "The assignment is due today. The assignment was not submitted. Given that it is due today, submitting it is obligatory."
+Pr: "The deadline for the assignment was yesterday. The assignment was not submitted. You should submit the assignment by the deadline."
 Hy: "The assignment ought to have been submitted, but it was not."
 Ex: ""
 
 Id8
-Pr: "You are at a red traffic light. You did not stop. Given that you are at a red light, stopping is obligatory."
+Pr: "You are at a red traffic light. You did not stop. Stopping is obligatory at a red traffic light."
 Hy: "You ought to have stopped, but you did not."
 Ex: ""
 
@@ -85,17 +85,17 @@ Ex: ""
 
 3.3. Inevitable violation
 Id16
-Pr: "You promised to attend your friend's wedding. You are also required to attend a mandatory work meeting at the same time. Given that you promised your friend, you ought to attend the wedding. Given that you must attend the work meeting, you ought not attend the wedding."
+Pr: "You promised to attend your friend's wedding. You are also required to attend a mandatory work meeting at the same time. Given that you promised your friend, you ought to attend the wedding. Given that the work meeting is mandatory, you ought not attend the wedding."
 Hy: "You cannot avoid violating an obligation."
 Ex: ""
 
 Id17
-Pr: "You promised your child you would pick them up from school. Your boss requires you to stay late at work for an urgent task. Given that you promised your child, you ought to pick them up. Given that your boss requires you to stay, you ought not pick them up."
+Pr: "Your child is struggling with math's homework. You are at your workplace. Your boss requires you to stay late at work for an urgent task. Given that your boss requires you to stay, you ought not to come home and help your child. Given that your child is struggling, you ought to come home and help them."
 Hy: "You cannot comply with all obligations."
 Ex: ""
 
 Id18
-Pr: "You agreed to attend a close friend’s graduation ceremony. You are also required to sit an important exam scheduled at the same time. Given that you agreed to attend the ceremony, you ought to go. Given that you must sit the exam, you ought not go."
+Pr: "You agreed to attend a close friend’s graduation ceremony. Another friend of yours, who is going through a difficult time emotionally, asks you to meet up for a chat. Given that you agreed to attend the ceremony, you ought to go. Given that your other friend needs support, you ought not go to the cerimony."
 Hy: "You are in a dilemma."
 Ex: ""
 
@@ -106,7 +106,7 @@ Hy: "It ought to be that you help your friend move."
 Ex: ""
 
 Id20
-Pr: "You encounter a person who is injured and needs immediate assistance. You also planned to attend a casual meetup with friends. Given that the person is in need, helping them is obligatory. Given that you planned the meetup, not attending it is forbidden. The obligation to help the person in need is stronger."
+Pr: "You encounter a person who is injured and needs immediate assistance. You also planned to attend a casual meetup with friends. If you stop to assist the person in need, you will not make it to the meetup. Given that the person is in need, helping them is obligatory. Given that you planned the meetup, you should not stop for helping the person. The obligation to help the person in need is stronger."
 Hy: "It ought to be that you help the injured person."
 Ex: ""
 
@@ -147,13 +147,13 @@ Contrary to duties and merely apparent conflict
 
 5. Exceptions
 Id27
-Pr: "You are feeling very ill. It ought to be that you go to work. Given that you are feeling very ill, it ought to be that you do not go to work."
+Pr: "It ought to be that you go to work. You are feeling very ill. Given that you are feeling very ill, it ought to be that you do not go to work."
 Hy: "It ought to be that you do not go to work."
 Ex: ""
 
 Id28
-Pr: "You are experiencing severe flu symptoms. It ought to be that you go to work. Given that you are experiencing severe flu symptoms, it ought to be that you do not go to work."
-Hy: "You are under no obligation to go to work."
+Pr: "You must pay 20 euros to go to the circus. If you are under twelve years old, you do not have to pay. You are under twelve years old."
+Hy: "You are under no obligation to pay."
 Ex: ""
 
 6. Exceptions and contrary to duties: Cottage regulations' paradox
