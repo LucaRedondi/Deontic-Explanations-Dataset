@@ -19,7 +19,7 @@ From forbiddingness
         "premise":  "You are obliged not to park here.",
         "hypothesis":"You are not allowed to park here.",
         "label": "Obligation and forbiddenness",
-        "explanation": "If an not doing an action is obligatory, then that action is forbidden."
+        "explanation": "If not doing an action is obligatory, then that action is forbidden."
     },
     {
         "id": 4,
@@ -132,8 +132,8 @@ Aggregation
 
 
 {
-  "Id": 18,
-  "Pr": "You can drink beer. You can drive.",
+  "Id": 17,
+  "Pr": "You can drink beer. You can drive. You must not put others in danger. Drinking beer and driving is dangerous.",
   "Hy": "You cannot drink beer and drive.",
   "label": "Permission does not aggregate",
   "Ex": "Each action is permitted individually, but their combination is forbidden."
