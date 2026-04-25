@@ -98,7 +98,7 @@ From obligation
 
 Extras:
 [
-    {
+     {
         "id": 13,
         "premise": "You are obliged to submit the assignment.",
         "hypothesis": "You are permitted to submit the assignment.",
