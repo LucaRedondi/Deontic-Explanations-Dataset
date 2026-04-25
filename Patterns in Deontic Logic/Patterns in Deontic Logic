@@ -140,7 +140,7 @@ Ex: ""
 
 Id26
 Pr: "You are required to submit your tax return by the deadline. You did not submit it on time. Given that you did not submit it, it ought to be that you pay a late fee."
-Hy: "You should have submitted your tax return, not that you must pay a late fee."
+Hy: "You should have submitted your tax return but you did not, therefore you must pay a late fee."
 Ex: ""
 
 Contrary to duties and merely apparent conflict
