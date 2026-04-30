@@ -66,6 +66,20 @@
     "label": "Obligation and permission",
     "explanation": "If something is not permitted, then it is also not obligatory."
   },
+{
+    "id": 11,
+    "premise": "You ought to finish your homework. You ought to clean your room.",
+    "hypothesis": "You ought to finish your homework and clean your room.",
+    "label": "Obligation - Aggregation",
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "premise": "You must not cheat on the exam. You must not talk during the test.",
+    "hypothesis": "You must not cheat on the exam and talk during the test.",
+    "label": "Forbiddingness - Aggregation",
+    "explanation": ""
+  },
    {
         "id": 11,
         "premise": "You are obliged to submit the assignment.",
