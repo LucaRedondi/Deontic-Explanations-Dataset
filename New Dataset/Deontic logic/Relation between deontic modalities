@@ -66,17 +66,66 @@
     "label": "Obligation and permission",
     "explanation": "If something is not permitted, then it is also not obligatory."
   },
-  {
-    "id": 11,
-    "premise": "You ought to finish your homework. You ought to clean your room.",
-    "hypothesis": "You ought to finish your homework and clean your room.",
-    "label": "Obligation - Aggregation",
-    "explanation": ""
-  },
-  {
-    "id": 12,
-    "premise": "You must not cheat on the exam. You must not talk during the test.",
-    "hypothesis": "You must not cheat on the exam and talk during the test.",
-    "label": "Forbiddingness - Aggregation",
-    "explanation": ""
-  }
+   {
+        "id": 11,
+        "premise": "You are obliged to submit the assignment.",
+        "hypothesis": "You are permitted to submit the assignment.",
+        "label": "Obligation and permission",
+        "explanation": "If something is obligatory, then it is permitted."
+    },
+    {
+        "id": 12,
+        "premise": "You are not allowed to park here.",
+        "hypothesis": "You are obliged not to park here.",
+        "label": "Obligation and forbiddenness",
+        "explanation": "If an action is forbidden, then not doing that action becomes obligatory."
+    },
+    {
+        "id": 13,
+        "premise": "It is forbidden to access the confidential files.",
+        "hypothesis": "You are not permitted to access the confidential files.",
+        "label": "Forbiddenness and permission",
+        "explanation": "Something is forbidden if and only if it is not permitted."
+    },
+
+    {
+        "id": 14,
+        "premise": "You are obliged to submit the assignment.",
+        "hypothesis": "Not submitting the assignment is not permitted.",
+        "label": "Obligation and permission",
+        "explanation": "If something is obligatory, then its negation is not permitted."
+    },
+
+    {
+        "id": 15,
+        "premise": "You are permitted to submit the assignment.",
+        "hypothesis": "Not submitting the assignment is not obligatory.",
+        "label": "Obligation and permission",
+        "explanation": "If something is permitted, then its negation is not obligatory."
+    },
+
+ {
+        "id": 16,
+        "premise": "You are not permitted to steal.",
+        "hypothesis": "You are not obliged to steal.",
+        "label": "Obligation and permission",
+        "explanation": "If something is not permitted, then it is also not obligatory."
+    },
+
+{
+  "id": 17,
+  "premise": "You are not permitted to steal. You are not permitted to kill.",
+  "hypothesis": "You are obliged not to steal and not to kill.",
+  "label": "Permission and obligation",
+  "explanation": "If an action is not permitted, then one is obliged not to do it. If you are obliged to do one action, and you are also obliged to do another action, then you are obliged to do both."
+},
+
+{
+  "id": 18,
+  "premise": "It is not permissible to drink alcohol and to drive. It is obligatory to drive home.",
+  "hypothesis": "It is prohibited to drink alcohol.",
+  "label": "Forbiddenness, obligation and permission",
+  "explanation": "Since driving home is obligatory, and the combination of drinking and driving is not permissible, drinking alcohol is prohibited."
+}
+
+
