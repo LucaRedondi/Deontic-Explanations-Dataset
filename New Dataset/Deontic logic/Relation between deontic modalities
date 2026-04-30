@@ -1,0 +1,82 @@
+{
+    "id": 1,
+    "premise": "You are not allowed to park here.",
+    "hypothesis": "You are obliged not to park here.",
+    "label": "Obligation and forbiddenness",
+    "explanation": "If an action is forbidden, then not doing that action becomes obligatory."
+  },
+  {
+    "id": 2,
+    "premise": "You are obliged not to park here.",
+    "hypothesis": "You are not allowed to park here.",
+    "label": "Obligation and forbiddenness",
+    "explanation": "If not doing an action is obligatory, then that action is forbidden."
+  },
+  {
+    "id": 3,
+    "premise": "You are not permitted to access the confidential files.",
+    "hypothesis": "It is forbidden to access the confidential files.",
+    "label": "Forbiddenness and permission",
+    "explanation": "Something is forbidden if and only if it is not permitted."
+  },
+  {
+    "id": 4,
+    "premise": "You are permitted to submit the assignment.",
+    "hypothesis": "Submitting the assignment is not forbidden.",
+    "label": "Obligation and permission",
+    "explanation": "If something is permitted, then it is not forbidden."
+  },
+  {
+    "id": 5,
+    "premise": "Not submitting the assignment is not obligatory.",
+    "hypothesis": "You are permitted to submit the assignment.",
+    "label": "Obligation and permission",
+    "explanation": "If not doing something is not obligatory, then that action is permissible."
+  },
+  {
+    "id": 6,
+    "premise": "Submitting the assignment is not forbidden.",
+    "hypothesis": "You are permitted to submit the assignment.",
+    "label": "Obligation and permission",
+    "explanation": "If something is not forbidden, then it is permissible."
+  },
+  {
+    "id": 7,
+    "premise": "It is obligatory to help others in need.",
+    "hypothesis": "It is forbidden not to help others in need.",
+    "explanation": "If something is obligatory, then its negation is forbidden."
+  },
+  {
+    "id": 8,
+    "premise": "It is forbidden not to help others in need.",
+    "hypothesis": "It is obligatory to help others in need.",
+    "explanation": "If not doing something is forbidden, then that action is obligatory."
+  },
+  {
+    "id": 9,
+    "premise": "Not submitting the assignment is not permitted.",
+    "hypothesis": "You are obliged to submit the assignment.",
+    "label": "Obligation and permission",
+    "explanation": "If it is not permitted to refrain from doing something, then that action is obligatory."
+  },
+  {
+    "id": 10,
+    "premise": "You are not permitted to steal.",
+    "hypothesis": "You are not obliged to steal.",
+    "label": "Obligation and permission",
+    "explanation": "If something is not permitted, then it is also not obligatory."
+  },
+  {
+    "id": 11,
+    "premise": "You ought to finish your homework. You ought to clean your room.",
+    "hypothesis": "You ought to finish your homework and clean your room.",
+    "label": "Obligation - Aggregation",
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "premise": "You must not cheat on the exam. You must not talk during the test.",
+    "hypothesis": "You must not cheat on the exam and talk during the test.",
+    "label": "Forbiddingness - Aggregation",
+    "explanation": ""
+  }
