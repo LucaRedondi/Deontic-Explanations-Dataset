@@ -126,6 +126,29 @@
   "hypothesis": "It is prohibited to drink alcohol.",
   "label": "Forbiddenness, obligation and permission",
   "explanation": "Since driving home is obligatory, and the combination of drinking and driving is not permissible, drinking alcohol is prohibited."
+},
+ {
+        "id": 19,
+        "premise": "If you are on duty, you must carry a radio.",
+        "hypothesis": "If you are on duty, you may carry a radio.",
+        "label": "Conditional obligation and permission",
+        "explanation": "Since carrying a radio is obligatory when on duty, it must also be permitted under the same condition."
+    },
+
+{
+  "id": 20,
+  "premise": "If you are in the laboratory, you are not permitted to drink.",
+  "hypothesis": "If you are in the laboratory, you must not drink.",
+  "label": "Conditional permission and forbiddenness",
+  "explanation": "Since drinking is not permitted in the laboratory, it is obligatory not to drink under the same condition."
+},
+
+{
+  "id": 21,
+  "premise": "If you ride a bicycle at night, you must turn on the lights.",
+  "hypothesis": "If you ride a bicycle at night, you are forbidden from riding without the lights on.",
+  "label": "Conditional obligation and prohibition",
+  "explanation": "Since turning on the lights is obligatory when riding at night, not turning them on is prohibited under that condition."
 }
 
 
