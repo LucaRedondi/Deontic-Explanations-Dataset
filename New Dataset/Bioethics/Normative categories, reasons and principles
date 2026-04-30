@@ -209,4 +209,25 @@
     "hypothesis": "You should leave Bob in peace.",
     "label": "Specification and default reasoning",
     "explanation": "Shying away typically indicates a desire for distance. Given that you should respect others’ autonomy, the fact that Bob wants distance is a reason to leave him in peace."
+  },
+ {
+    "id": 94,
+    "premise": "The patient asks for a risky procedure. The patient has taken a strong sedative. You should respect others’ autonomy.",
+    "hypothesis": "You ought to wait before acting on the request.",
+    "label": "Undercut",
+    "explanation": "A request typically indicates a competent expression of will. Given that you should respect others’ autonomy, a competent expression of will is a reason to follow the request. But the patient is sedated and not competent. So autonomy does not generate a reason to follow the request here."
+  },
+  {
+    "id": 95,
+    "premise": "The patient is brain dead. Removing organs causes serious physical damage. Harming is bad.",
+    "hypothesis": "You are permitted to remove the organs.",
+    "label": "Undercut",
+    "explanation": "Causing physical damage typically indicates harming a patient. Given that you shall do no harm, harming a patient is a reason against removing organs. But the patient is brain dead and no longer a subject of harm. So the principle does not generate a reason against removing the organs here."
+  },
+  {
+    "id": 96,
+    "premise": "A treatment would prolong the patient’s life. The treatment would only extend severe suffering. Promoting others’ wellbeing is good.",
+    "hypothesis": "You are permitted not to give the treatment.",
+    "label": "Undercut",
+    "explanation": "Prolonging life typically indicates a benefit. Given that promoting others’ wellbeing is good, a genuine benefit is a reason to offer the treatment. But here the treatment brings no benefit and only extends suffering. So the principle does not generate a reason to give the treatment."
   }
