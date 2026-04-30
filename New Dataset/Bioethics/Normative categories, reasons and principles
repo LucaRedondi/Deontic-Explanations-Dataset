@@ -1,0 +1,212 @@
+{
+  "id": 65,
+  "premise": "Helping is permitted.",
+  "hypothesis": "You may help.",
+  "label": "Natural language complexity",
+  "explanation": "To say that helping is permitted is to say that you may help."
+}, 
+
+  {
+    "id": 66,
+    "premise": "Killing is forbidden.",
+    "hypothesis": "You ought not to kill.",
+    "label": "Natural language complexity",
+    "explanation": "To say that killing is forbidden is to say that you ought not to kill."
+  },
+
+  {
+    "id": 67,
+    "premise": "Helping others is obligatory.",
+    "hypothesis": "You ought to help others.",
+    "label": "Natural language complexity",
+    "explanation": "To say that helping others is obligatory is to say that you ought to help others."
+  },
+
+ {
+    "id": 68,
+    "premise": "Respecting people’s decisions is required.",
+    "hypothesis": "People’s decisions should be respected.",
+    "label": "Natural language complexity",
+    "explanation": "To say that respecting people’s decisions is required is to say that people’s decisions should be respected."
+  },
+
+  {
+    "id": 69,
+    "premise": "Treating people fairly is mandatory.",
+    "hypothesis": "People should be treated fairly.",
+    "label": "Natural language complexity",
+    "explanation": "To say that treating people fairly is mandatory is to say that people should be treated fairly."
+  }
+
+[
+  {
+    "id": 70,
+    "premise": "Littering is bad.",
+    "hypothesis": "You ought not to litter.",
+    "label": "default evaluative-to-deontic inference",
+    "explanation": "Typically, what is bad is also forbidden."
+  },
+  {
+    "id": 71,
+    "premise": "Helping a lost child is good.",
+    "hypothesis": "You ought to help the lost child.",
+    "label": "default evaluative-to-deontic inference",
+    "explanation": "Typically, one ought to do what is good."
+  },
+{
+  "id": 72,
+  "premise": "Watching a movie is ethically neutral.",
+  "hypothesis": "You may watch a movie.",
+  "label": "default evaluative-to-deontic inference",
+  "explanation": "Typically, what is ethically neutral is also permitted."
+},
+
+{
+  "id": 73,
+  "premise": "You ought to help your neighbor.",
+  "hypothesis": "Helping your neighbor is good.",
+  "label": "default deontic-to-evaluative inference",
+  "explanation": "Typically, what one ought to do is also good."
+},
+
+{
+  "id": 74,
+  "premise": "You ought not to insult people.",
+  "hypothesis": "Insulting people is bad.",
+  "label": "default deontic-to-evaluative inference",
+  "explanation": "Typically, what is forbidden is also bad."
+},
+
+{
+  "id": 75,
+  "premise": "You may play board games.",
+  "hypothesis": "Playing board games is not bad.",
+  "label": "default deontic-to-evaluative inference",
+  "explanation": "Typically, what is permitted is not bad."
+},
+  {
+    "id": 76,
+    "premise": "It is raining heavily.",
+    "hypothesis": "You should take an umbrella.",
+    "label": "normative reason for",
+    "explanation": "The fact that it is raining heavily is a reason to take an umbrella."
+  },
+  {
+    "id": 77,
+    "premise": "Your friend is waiting for you at the café.",
+    "hypothesis": "You should go meet your friend.",
+    "label": "normative reason for",
+    "explanation": "The fact that your friend is waiting is a reason to go meet your friend."
+  },
+  {
+    "id": 78,
+    "premise": "The road is covered with black ice.",
+    "hypothesis": "You should not drive fast.",
+    "label": "normative reason  against",
+    "explanation": "The fact that the road is covered with black ice is a reason against driving fast."
+  },
+  {
+    "id": 79,
+    "premise": "You have a severe allergy to peanuts.",
+    "hypothesis": "You should not eat the peanut cookies.",
+    "label": "normative reason against",
+    "explanation": "The fact that you have a severe allergy to peanuts is a reason against eating the peanut cookies."
+  },
+{
+  "id": 80,
+  "premise": "You promised to return a borrowed book.",
+  "hypothesis": "You should return the book.",
+  "label": "reason for",
+  "explanation": "The fact that you made a promise is a reason for returning the book."
+},
+{
+  "id": 81,
+  "premise": "An animal is trapped and frightened.",
+  "hypothesis": "You should free the animal.",
+  "label": "reason for",
+  "explanation": "The fact that the animal is suffering is a reason for helping it."
+},
+ {
+    "id": 82,
+    "premise": "Harming is bad",
+    "hypothesis": "You shall not kill Mary.",
+    "label": "Specification",
+    "explanation": "Given that harming is bad, the fact that killing involves harming is a reason not to kill Mary."
+  },
+  {
+    "id": 83,
+    "premise": "Harming is bad.",
+    "hypothesis": "You shall not injure John.",
+    "label": "Specification",
+    "explanation": "Given that you shall do no harm, the fact that injuring John harms him is a reason not to injure John."
+  },
+  {
+    "id": 84,
+    "premise": "Promoting others’ wellbeing is good. Mary is in need.",
+    "hypothesis": "You should help Mary.",
+    "label": "Specification",
+    "explanation": "Given that promoting others’ wellbeing is good, the fact that Mary is in need is a reason to help her."
+  },
+  {
+    "id": 85,
+    "premise": "Promoting others’ wellbeing is good. Jane is in danger.",
+    "hypothesis": "You should save Jane.",
+    "label": "Specification",
+    "explanation": "Given that you should promote others’ wellbeing, the fact that Jane is in danger is a reason to save her."
+  },
+  {
+    "id": 86,
+    "premise": "You should respect others’ autonomy. Bob declined your proposal to meet at his place.",
+    "hypothesis": "You should not show up at Bob’s place.",
+    "label": "Specification",
+    "explanation": "Given that you should respect others’ autonomy, the fact that Bob declined your proposal is a reason not to go to his place."
+  },
+  {
+    "id": 87,
+    "premise": "People should be treated fairly. Two employees do the same job.",
+    "hypothesis": "You should pay the employees the same salary.",
+    "label": "Specification",
+    "explanation": "Given that people should be treated fairly, the fact that the employees do the same job is a reason to pay them the same salary."
+  },
+  {
+    "id": 88,
+    "premise": "Everyone should be treated equally. Bob and John are students. Bob and John are taking a test.",
+    "hypothesis": "You should give Bob and John the same amount of time for the test.",
+    "label": "Specification",
+    "explanation": "Given that everyone should be treated equally, the fact that Bob and John are in the same testing situation is a reason to give them the same amount of time."
+  },
+  {
+    "id": 89,
+    "premise": "Each person should receive what they deserve. Mary performed best in the competition.",
+    "hypothesis": "You should give the award to Mary.",
+    "label": "Specification",
+    "explanation": "Given that each person should receive what they deserve, the fact that Mary performed best is a reason to award her."
+  },
+ {
+    "id": 90,
+    "premise": "Harming is bad.",
+    "hypothesis": "You shall not trash talk Bob.",
+    "label": "Specification and default reasoning",
+    "explanation": "Trash talking typically causes distress. Given that you shall do no harm, the fact that trash talking causes distress is a reason not to trash talk Bob."
+  },
+{
+    "id": 91,
+    "premise": "Helping others is good. Bob is crying.",
+    "hypothesis": "You should comfort Bob.",
+    "label": "Specification and default reasoning",
+    "explanation": "Crying typically indicates distress. Given that you should help others, the fact that Bob is in distress is a reason to comfort him."
+  },
+{
+    "id": 92,
+    "premise": "You should respect others’ autonomy. Bob says that he is a vegetarian.",
+    "hypothesis": "You should not offer Bob any meat.",
+    "label": "Specification and default reasoning",
+    "explanation": "People who say they are vegetarians typically do not want meat. Given that you should respect others’ autonomy, the fact that Bob does not want meat is a reason not to offer him any."
+  },
+  {
+    "id": 93,
+    "premise": "You should respect others' autonomy. Bob shys away from your attention.",
+    "hypothesis": "You should leave Bob in peace.",
+    "label": "Specification and default reasoning",
+    "explanation": "Shying away typically indicates a desire for distance. Given that you should respect others’ autonomy, the fact that Bob wants distance is a reason to leave him in peace."
+  }
