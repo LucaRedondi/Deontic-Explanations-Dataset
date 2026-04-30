@@ -1,1 +1,248 @@
-aa
+{
+  "id": 97,
+  "premise": "You can either comfort a stranger or help another stranger in medical distress, but not both. Promoting others’ wellbeing is good.",
+  "hypothesis": "You ought to help the stranger in medical distress.",
+  "label": "Conflict within one principle",
+  "explanation": "Crying typically indicates emotional distress. Given that you should promote others’ wellbeing, emotional distress is a reason to comfort the first stranger. Given that you should promote others’ wellbeing, medical danger is a reason to help the second stranger. Because reasons based on urgent physical danger are stronger, the reason to help the stranger in medical distress takes priority."
+},
+
+  {
+    "id": 98,
+    "premise": "You can either comfort your friend or comfort a stranger, but not both. Promoting others’ wellbeing is good",
+    "hypothesis": "You ought to comfort your friend.",
+    "label": "Conflict within one principle",
+    "explanation": "Given that you should promote others’ wellbeing, the stranger's emotional distress is a reason to comfort the stranger. Given that you should promote others’ wellbeing, your friend's emotional distress is a reason to comfort your friend. Since you have a closer relationship with your friend, the reason to comfort your friend is stronger."
+  },
+
+  {
+    "id": 99,
+    "premise": "You can either save two strangers in danger or save one stranger in danger, but not both. Promoting others’ wellbeing is good.",
+    "hypothesis": "You ought to save the two strangers.",
+    "label": "Conflict within one principle",
+    "explanation": "Given that you should promote others’ wellbeing, the two strangers being in danger is a reason to save them. Given that you should promote others’ wellbeing, the one stranger being in danger is a reason to save her. Because saving more people provides more wellbeing, the reason to save the two strangers is stronger."
+  },
+
+  {
+    "id": 100,
+    "premise": "You can either expose one person to a dangerous chemical or expose two people to the same danger, but both actions would cause harm. Harming is bad.",
+    "hypothesis": "You ought to avoid exposing the two people.",
+    "label": "Conflict within one principle",
+    "explanation": "Exposure to a dangerous chemical typically indicates harm. Given that you shall do no harm, the harm to one person is a reason not to expose the one, and the harm to two people is a reason not to expose the two. Because preventing greater harm provides the stronger reason, the reason to avoid exposing the two people is stronger."
+  },
+
+  {
+    "id": 101,
+    "premise": "If you push the button, one person will die. If you do not push the button, two people will die. Harming is bad.",
+    "hypothesis": "You ought to push the button.",
+    "label": "Conflict within one principle",
+    "explanation": "A death indicates serious harm. Given that you shall do no harm, preventing one death is a reason to avoid pushing the button, and preventing two deaths is a reason to push it. Because preventing greater harm provides the stronger reason, the reason to prevent two deaths takes priority and you ought to push the button."
+  },
+
+  {
+    "id": 102,
+    "premise": "If you push the button, one person will die; if you do not push the button, two people will die. Harming is bad.",
+    "hypothesis": "You ought not to push the button.",
+    "label": "Conflict within one principle",
+    "explanation": "A death indicates serious harm. Given that you shall do no harm, preventing one death is a reason to avoid pushing the button and preventing two deaths is a reason to push it. But actively causing harm typically provides a stronger reason against action. Because avoiding actively causing harm takes priority, the reason not to push the button is stronger."
+  },
+  {
+  "id": 103,
+  "premise": "You can give the only available kidney to a young patient or to an older patient, but not to both. Promoting others’ wellbeing is good.",
+  "hypothesis": "You ought to give the kidney to the young patient.",
+  "label": "Conflict within one principle",
+  "explanation": "Given that you should promote others’ wellbeing, the younger patient’s need for a kidney is a reason to give the kidney to the younger patient. Given that you should promote others’ wellbeing, the older patient’s need is a reason to give the kidney to the older patient. Because the younger patient can benefit more from the transplant, the reason to give the kidney to the younger patient is stronger."
+}
+
+ {
+  "id": 104,
+  "premise": "You can give the only available kidney to a child or to an adult, but not to both. Promoting others’ wellbeing is good. In precedent 1, you could give the only available kidney to a young patient or an older patient. In precedent 1, you ought to give the kidney to the young patient.",
+  "hypothesis": "You ought to give the kidney to the child.",
+  "label": "Conflict within one principle (A fortiori reasoning)",
+  "explanation": "Given that you should promote others’ wellbeing, the child’s need for a kidney is a reason to give the kidney to the child. Given that you should promote others’ wellbeing, the adult’s need is a reason to give the kidney to the adult. Since in the precedent case the reason to help the younger patient prevailed, and a child typically benefits even more than a young patient, the reason to give the kidney to the child is stronger here."
+},
+
+{
+  "id": 105,
+  "premise": "You can give the only available kidney to a patient who will die soon without it or to a patient whose condition is more stable, but not to both. Promoting others’ wellbeing is good.",
+  "hypothesis": "You ought to give the kidney to the patient who will die soon.",
+  "label": "Conflict within one principle",
+  "explanation": "Given that you should promote others’ wellbeing, the urgent patient’s need for a kidney is a reason to give the kidney to the urgent patient. Given that you should promote others’ wellbeing, the stable patient’s need is a reason to give the kidney to the stable patient. Because the urgent patient is at immediate risk of death, the reason to help the urgent patient is stronger."
+},
+
+{
+    "id": 106,
+    "premise": "Bob asks if a dress suits him. You can tell a comforting lie or tell the harsh truth, but not both. Promoting others’ wellbeing is good. You should not lie.",
+    "hypothesis": "You ought to tell the truth.",
+    "label": "Conflict between different principles (Honesty vs. Beneficence)",
+    "explanation": "Given that promoting others’ wellbeing is good, Bob’s desire for reassurance is a reason to tell him the dress suits him. Given that you should not lie, the fact that saying it suits him would be false is a reason to tell the truth. Because Bob trusts you to be honest, you ought to tell Bob the truth."
+  },
+{
+  "id": 107,
+  "premise": "You just met Bob. You do not like how Bob is dressed. Bob asks if you like his outfit. Politeness is valuable. You should not lie.",
+  "hypothesis": "You should tell Bob he is dressed nicely.",
+  "label": "Conflict between different principles (Honesty vs. Politeness)",
+  "explanation": "It is typically unpolite to tell someone you do not like how they are dressed. Given the value of politeness, the fact that telling the truth would be unpolite is a reason to lie. Given that you should not lie, the fact that the statement would be false is a reason to tell the truth. In this case, politeness is more important, so you should tell Bob he is dressed nicely"
+},
+{
+  "id": 108,
+  "premise": "A murderer asks where your friend is hiding. You know where your friend is. The murderer wants to harm your friend. There is an absolute duty not to lie. Promoting others’ wellbeing is good.",
+  "hypothesis": "You ought to tell the truth.",
+  "label": "Conflict between different principles (Honesty vs. Beneficence)",
+  "explanation": "Given that promoting others’ wellbeing is good, the threat to your friend’s life is a reason to lie. Since you shall not lie, you have a reason to tell the truth. Because the duty not to lie is absolute, the reason to tell the truth prevails."
+},
+{
+  "id": 109,
+  "premise": "A murderer asks where your friend is hiding. You know where your friend is. The murderer wants to harm your friend. You should not lie. Promoting others’ wellbeing is good.",
+  "hypothesis": "You ought to lie to protect your friend.",
+  "label": "Conflict between different principles (Honesty vs. Beneficence)",
+  "explanation": "Since you shall not lie, you have a reason to tell the truth. Given that promoting others’ wellbeing is good, the threat to your friend’s life is a reason to lie. Because protecting your friend’s life is the stronger reason, you ought to lie."
+},
+ {
+    "id": 110,
+    "premise": "You promised to give money to Bob. Bob lied to manipulate you into making the promise. Mary genuinely needs that money. You should keep your promises. Promoting others’ wellbeing is good.",
+    "hypothesis": "You ought to donate the money to Mary.",
+    "label": "Conflict between different principles with undercutting condition",
+    "explanation": "Given that you should keep your promises, the fact that you promised Bob is normally a reason to give him the money. Given that promoting others’ wellbeing is good, Mary’s genuine need is a reason to donate the money to her. But Bob manipulated you into making the promise, so the reason to keep the promise is undercut."
+  },
+{
+    "id": 111,
+    "premise": "A patient refuses a medical treatment that would significantly improve their health. Promoting others’ wellbeing is good. You should respect others’ autonomy.",
+    "hypothesis": "You ought to respect the patient’s refusal.",
+    "label": "Conflict between different principles (Autonomy vs. Beneficence)",
+    "explanation": "Given that promoting others’ wellbeing is good, the potential health benefit is a reason to provide the treatment. Given that you should respect autonomy, the patient’s refusal is a reason not to provide it. The reason grounded in autonomy is stronger here."
+  },
+
+ {
+    "id": 112,
+    "premise": "A patient insists on receiving a procedure that would likely cause significant harm without offering any medical benefit. You should respect others’ autonomy. Harming is bad.",
+    "hypothesis": "You ought not to perform the procedure.",
+    "label": "Conflict between different principles (Autonomy vs. Non-maleficence)",
+    "explanation": "Given that you should respect autonomy, the patient’s request is a reason to perform the procedure. Given that harming is bad, the expected medical harm is a reason not to perform it. Because avoiding serious harm carries greater weight, the reason not to perform the procedure is stronger."
+  },
+
+ {
+    "id": 113,
+    "premise": "A father refuses a necessary treatment for his minor son, but the treatment would greatly improve the child's health. You should respect others’ autonomy. Promoting others’ wellbeing is good.",
+    "hypothesis": "You ought to provide the treatment to the son.",
+    "label": "Conflict between different principles (Autonomy vs. Beneficence)",
+    "explanation": "Given that you should respect autonomy, the father’s refusal is a reason not to treat the child. Given that promoting others’ wellbeing is good, the child’s need and potential benefit are reasons to provide the treatment. Because the child’s wellbeing is more important, the reason to treat is stronger."
+  },
+
+ {
+    "id": 114,
+    "premise": "The physician knows that the patient is terminally ill. The news will cause great distress. The patient explicitly asks to know the truth. Promoting others’ wellbeing is good. You should respect others’ autonomy.",
+    "hypothesis": "You ought to tell the patient the truth.",
+    "label": "Conflict between different principles (Autonomy vs. Beneficence)",
+    "explanation": "Given that promoting others’ wellbeing is good, the patient’s expected distress is a reason not to disclose the news. Given that you should respect autonomy, the patient’s explicit request is a reason to tell the truth. The reason grounded in autonomy is stronger here."
+  },
+
+ {
+    "id": 115,
+    "premise": "A patient refuses a simple and life-saving treatment. The patient is severely confused because of a high fever. You should respect others’ autonomy. Promoting others’ wellbeing is good.",
+    "hypothesis": "You ought to give the treatment.",
+    "label": "Undercutting condition (Autonomy requires competent choice)",
+    "explanation": "Given that you should respect autonomy, the patient’s refusal would normally be a reason not to treat. Given that promoting others’ wellbeing is good, the life-saving benefit is a reason to treat. But the refusal was made without mental competence, so it does not express an autonomous decision. Thus the reason not to treat is undercut, and the reason to treat remains."
+  },
+{
+  "id": 116,
+  "premises": "The patient wants to refuse therapy. The patient is terminally ill. The patient is suffering. People should decide for themselves.",
+  "hypothesis": "It is morally permitted for the patient to refuse treatment.",
+  "label": "Autonomy-based justification",
+  "explanation": "Given that people should decide for themselves, the patient’s desire to refuse therapy is a reason to allow refusal. Since no competing reason overrides it here, refusal is permitted."
+},
+
+{
+  "id": 117,
+  "premises": "The patient wants to refuse therapy. The patient is terminally ill. The patient is suffering. The patient’s relatives will suffer from the patient’s death. People should decide for themselves. Promoting others’ wellbeing is good.",
+  "hypothesis": "It is morally permitted for the patient to refuse treatment.",
+  "label": "Conflict between principles – Resolution by ranking",
+  "explanation": "Given that people should decide for themselves, the patient’s desire to refuse therapy is a reason to allow refusal. Given that promoting others’ wellbeing is good, the relatives’ suffering is a reason to prevent refusal. The autonomy-based reason is stronger in this situation, so refusal is permitted."
+},
+
+{
+  "id": 118,
+  "premises": "The patient wants to refuse therapy. The patient is suffering. The patient’s relatives will suffer from the patient’s death. People should decide for themselves. Promoting others’ wellbeing is good.",
+  "hypothesis": "It is morally permitted for the patient to refuse treatment.",
+  "label": "Conflict between principles – Resolution by ranking",
+  "explanation": "Given that people should decide for themselves, the patient’s desire to refuse therapy is a reason to allow refusal. Given that promoting others’ wellbeing is good, the relatives’ suffering is a reason to prevent refusal. The autonomy-based reason is stronger, so refusing treatment is permitted."
+},
+
+{
+  "id": 119,
+  "premises": "The patient wants to refuse therapy. The patient is terminally ill. The patient is suffering. The patient’s relatives will suffer from the patient’s death. In precedent 1, the patient wanted to refuse therapy, was suffering, and refusal was permitted. People should decide for themselves. Promoting others’ wellbeing is good.",
+  "hypothesis": "It is morally permitted for the patient to refuse treatment.",
+  "label": "Conflict between principles – Resolution by case-based reasoning",
+  "explanation": "Given that people should decide for themselves, the patient’s desire is a reason to allow refusal. Given that promoting others’ wellbeing is good, the relatives’ suffering is a reason to prevent refusal. Since a similar case allowed refusal, the autonomy-based reason is taken to be stronger again, so refusal is permitted."
+},
+
+{
+  "id": 120,
+  "premises": "The patient wants to commit suicide. The patient is terminally ill. The patient is suffering. People should decide for themselves.",
+  "hypothesis": "It is morally permitted for the patient to commit suicide.",
+  "label": "Autonomy-based justification",
+  "explanation": "Given that people should decide for themselves, the patient's desire to end their life is a reason to allow it. Since no opposing reason is specified, ending life is permitted."
+},
+
+{
+  "id": 121,
+  "premises": "The patient wants to refuse therapy. The patient is terminally ill. The patient is suffering. In precedent 1, the patient wanted to end their own life and this was permitted. People should decide for themselves.",
+  "hypothesis": "It is morally permitted for the patient to refuse treatment.",
+  "label": "Resolution by precedent",
+  "explanation": "Given that people should decide for themselves, the patient’s desire to refuse therapy is a reason to allow refusal. Since in the precedent case an even more extreme choice was permitted, the reason to allow refusal here is a fortiori stronger."
+},
+
+{
+  "id": 122,
+  "premises": "The patient wants to refuse therapy. The patient is suffering. The suffering cannot be avoided. People should decide for themselves. Promoting others’ wellbeing is good.",
+  "hypothesis": "It is morally prohibited for the physician to force treatment.",
+  "label": "Conflict between principles – Resolution by undercut",
+  "explanation": "Given that people should decide for themselves, the patient’s desire is a reason not to force treatment. Given that we should promote others’ wellbeing, reducing suffering is normally a reason to force treatment. But suffering cannot be avoided, so that wellbeing-based reason is undercut."
+},
+
+{
+  "id": 123,
+  "premises": "The patient wants to die. The patient needs the help of the physician. The patient is suffering. The suffering cannot be avoided. People should decide for themselves. Promoting others’ wellbeing is good. We should not kill.",
+  "hypothesis": "The physician should help the patient to die.",
+  "label": "Conflict between principles – Resolution by ranking",
+  "explanation": "Given that people should decide for themselves, the patient’s desire is a reason to help. Given that promoting others’ wellbeing is good, removing suffering is a reason to help. Given that we should not kill, the fact that helping causes death is a reason not to help. The autonomy-based reason is stronger here, so the physician should help the patient to die."
+},
+
+{
+  "id": 124,
+  "premises": "The patient wants to die. The patient needs the help of the physician. The patient is suffering. The suffering cannot be avoided. The physician does not want to help. People should decide for themselves. Promoting others’ wellbeing is good. We should not kill.",
+  "hypothesis": "It is morally permitted for the physician not to help the patient to die.",
+  "label": "Multiple principle conflict – Resolution by ranking and undercut",
+  "explanation": "Given that people should decide for themselves, the patient’s desire is a reason to help. Given that we should promote others’ wellbeing, reducing suffering is a reason to help. Given that we should not kill, the fact tha hleping causes death is a reason not to help. The physician’s own autonomous refusal is also a reason not to help. Taken together, the reasons not to help are stronger, so not helping is permitted."
+},
+
+{
+  "id": 125,
+  "premises": "The patient wants to die. The patient needs the help of the physician. The patient is suffering. The suffering cannot be avoided. People should decide for themselves. Promoting others’ wellbeing is good. We must never kill.",
+  "hypothesis": "It is morally prohibited for the physician to help the patient to die.",
+  "label": "Conflict between principles – Absolute constraint",
+  "explanation": "Given that people should decide for themselves, the patient's desire is a reason to help. Given that promoting others’ wellbeing is good, reducing suffering is a reason to help. Since killing is absolutely prohibited, there is a decisive reason not to help."
+},
+
+{
+  "id": 126,
+  "premises": "The patient cannot give consent. The patient is suffering. The suffering cannot be avoided. Promoting others’ wellbeing is good.",
+  "hypothesis": "It is permitted to stop treatment.",
+  "label": "Single principle conflict – Undercut",
+  "explanation": "Given that promoting others’ wellbeing is good, reducing suffering is normally a reason to continue treatment, and preventing further suffering is a reason to stop treatment. Because the suffering cannot be avoided, the reason to continue treatment is undercut, so stopping treatment is permitted."
+},
+
+{
+  "id": 127,
+  "premises": "The patient cannot give consent. The patient is suffering. The suffering cannot be avoided. The patient is terminally ill. In precedent 1, the patient could not give consent, suffered, and stopping treatment was permitted. Promoting others’ wellbeing is good.",
+  "hypothesis": "It is morally permitted to stop treatment.",
+  "label": "Case-based reasoning",
+  "explanation": "Given that promoting others’ wellbeing is good, reducing suffering is normally a reason to continue treatment, and preventing unnecessary suffering is a reason to stop treatment. Since the present case is like the precedent where stopping treatment was permitted, the same verdict applies here."
+},
+
+{
+  "id": 128,
+  "premises": "The patient cannot give consent. The patient is suffering. The suffering can be avoided. Promoting others’ wellbeing is good.",
+  "hypothesis": "It is morally prohibited to stop treatment.",
+  "label": "Single principle conflict – Undercut",
+  "explanation": "Given that promoting others’ wellbeing is good, preventing suffering is a reason to continue treatment, and avoiding unnecessary intervention is a reason to stop treatment. Because the suffering can be avoided, the reason to stop treatment is undercut, so stopping treatment is prohibited."
+}
