@@ -1,243 +1,243 @@
 {
-    "id": 24,
+    "id": 22,
     "premise": "It is raining. Given that it is raining, carrying an umbrella is obligatory.",
     "hypothesis": "Carrying an umbrella is obligatory.",
     "label": "Factual detachment",
     "explanation": ""
   },
   {
-    "id": 25,
+    "id": 23,
     "premise": "You borrowed a book from the library. Given that you borrowed it, returning it by the due date is expected.",
     "hypothesis": "Returning it by the due date is expected.",
     "label": "Factual detachment",
     "explanation": ""
   },
   {
-    "id": 26,
+    "id": 24,
     "premise": "You made a promise. Given that you made a promise, keeping it is obligatory.",
     "hypothesis": "Keeping the promise is obligatory.",
     "label": "Factual detachment",
     "explanation": ""
   },
   {
-    "id": 27,
+    "id": 25,
     "premise": "There is a fire alarm. Given that there is a fire alarm, evacuating the building must be done.",
     "hypothesis": "Evacuating the building must be done.",
     "label": "Factual detachment",
     "explanation": ""
   },
   {
-    "id": 28,
+    "id": 26,
     "premise": "You are driving. Given that you are driving, following traffic laws is required.",
     "hypothesis": "Following traffic laws is required.",
     "label": "Factual detachment",
     "explanation": ""
   },
   {
-    "id": 29,
+    "id": 27,
     "premise": "You promised to call your friend. You did not call your friend. Given that you promised, calling your friend is obligatory.",
     "hypothesis": "You ought to have called your friend, but you did not.",
     "label": "Violation detection",
     "explanation": ""
   },
   {
-    "id": 30,
+    "id": 28,
     "premise": "The deadline for the assignment was yesterday. The assignment was not submitted. You should submit the assignment by the deadline.",
     "hypothesis": "The assignment ought to have been submitted, but it was not.",
     "label": "Violation detection",
     "explanation": ""
   },
   {
-    "id": 31,
+    "id": 29,
     "premise": "You are at a red traffic light. You did not stop. Stopping is obligatory at a red traffic light.",
     "hypothesis": "You ought to have stopped, but you did not.",
     "label": "Violation detection",
     "explanation": ""
   },
   {
-    "id": 32,
+    "id": 30,
     "premise": "You promised to call your friend. You did not call your friend. Given that you promised, calling your friend is required.",
     "hypothesis": "You were required to call your friend, but you did not.",
     "label": "Violation detection",
     "explanation": ""
   },
   {
-    "id": 33,
+    "id": 31,
     "premise": "There is a fire alarm. You did not evacuate the building. Given that there is a fire alarm, evacuating is required.",
     "hypothesis": "Evacuating the building was required, but you did not evacuate.",
     "label": "Violation detection",
     "explanation": ""
   },
   {
-    "id": 34,
+    "id": 32,
     "premise": "You promised to attend your friend's wedding. You also promised to attend an important work meeting at the same time. Given that you promised your friend, attending the wedding is obligatory. Given that you promised your employer, not attending the wedding is obligatory.",
     "hypothesis": "Attending the wedding is obligatory and not attending the wedding is obligatory.",
     "label": "(Deontic conflict)",
     "explanation": ""
   },
   {
-    "id": 35,
+    "id": 33,
     "premise": "You agreed to keep a secret. You are also required by law to disclose that information. Given that you agreed to keep a secret, keeping it is obligatory. Given that you are legally required to disclose it, not keeping it is obligatory.",
     "hypothesis": "It ought to be that you keep the secret and not keep the secret.",
     "label": "(Deontic conflict)",
     "explanation": ""
   },
   {
-    "id": 36,
+    "id": 34,
     "premise": "You promised to attend your friend's wedding. You are also required to attend a mandatory work meeting at the same time. Given that you promised your friend, attending the wedding is obligatory. Given that you must attend the work meeting, not attending the wedding is obligatory.",
     "hypothesis": "It is not the case that watering the plants is obligatory.",
     "label": "(Non-explosion)",
     "explanation": ""
   },
   {
-    "id": 37,
+    "id": 35,
     "premise": "You agreed to submit a confidential report. You are also instructed to share all project data with the team. Given that the report is confidential, not sharing it is obligatory. Given that you must share all project data, sharing it is obligatory.",
     "hypothesis": "It is not the case that cleaning the office is obligatory.",
     "label": "(Non-explosion)",
     "explanation": ""
   },
   {
-    "id": 38,
+    "id": 36,
     "premise": "You promised to help your friend move house. You are also required to stay at work for an emergency shift. Given that you promised your friend, helping them move is obligatory. Given that you must stay at work, not helping them move is obligatory.",
     "hypothesis": "Helping your friend move is obligatory and it is not obligatory to wash the car.",
     "label": "(Non-explosion)",
     "explanation": ""
   },
   {
-    "id": 39,
+    "id": 37,
     "premise": "You promised to attend your friend's wedding. You are also required to attend a mandatory work meeting at the same time. Given that you promised your friend, you ought to attend the wedding. Given that the work meeting is mandatory, you ought not attend the wedding.",
     "hypothesis": "You cannot avoid violating an obligation.",
     "label": "(Deontic dilemma)",
     "explanation": ""
   },
   {
-    "id": 40,
+    "id": 38,
     "premise": "Your child is struggling with math's homework. You are at your workplace. Your boss requires you to stay late at work for an urgent task. Given that your boss requires you to stay, you ought not to come home and help your child. Given that your child is struggling, you ought to come home and help them.",
     "hypothesis": "You cannot comply with all obligations.",
     "label": "(Deontic dilemma)",
     "explanation": ""
   },
   {
-    "id": 41,
+    "id": 39,
     "premise": "You agreed to attend a close friend’s graduation ceremony. Another friend of yours, who is going through a difficult time emotionally, asks you to meet up for a chat. Given that you agreed to attend the ceremony, you ought to go. Given that your other friend needs support, you ought not go to the cerimony.",
     "hypothesis": "You are in a dilemma.",
     "label": "(Deontic dilemma)",
     "explanation": ""
   },
   {
-    "id": 42,
+    "id": 40,
     "premise": "You promised to help your friend move. You also casually agreed to attend a social gathering at the same time. Given that you promised your friend, helping them move is obligatory. Given that you agreed to attend the gathering, not attending it is forbidden. The obligation to help your friend is stronger.",
     "hypothesis": "It ought to be that you help your friend move.",
     "label": "(Resolution by ranking)",
     "explanation": ""
   },
   {
-    "id": 43,
+    "id": 41,
     "premise": "You encounter a person who is injured and needs immediate assistance. You also planned to attend a casual meetup with friends. If you stop to assist the person in need, you will not make it to the meetup. Given that the person is in need, helping them is obligatory. Given that you planned the meetup, you should not stop for helping the person. The obligation to help the person in need is stronger.",
     "hypothesis": "It ought to be that you help the injured person.",
     "label": "(Resolution by ranking)",
     "explanation": ""
   },
   {
-    "id": 44,
+    "id": 42,
     "premise": "You are caring for a sick relative. Given that you are caring for them, staying at home ought to be. If you accept an urgent work assignment, not staying at home will be obligatory.",
     "hypothesis": "Accepting an urgent work assignment is forbidden.",
     "label": "(Forbidden conflict)",
     "explanation": ""
   },
   {
-    "id": 45,
+    "id": 43,
     "premise": "You are scheduled to give a presentation at a conference. Given that you are scheduled, attending the conference ought to be. If you commit to a simultaneous client meeting, not attending the conference will be obligatory.",
     "hypothesis": "Committing to the client meeting is forbidden.",
     "label": "(Forbidden conflict)",
     "explanation": ""
   },
   {
-    "id": 46,
+    "id": 44,
     "premise": "You are expected to attend an important family dinner. Given that you are expected, attending the dinner ought to be. If you accept a last-minute invitation to another event at the same time, not attending the dinner will be obligatory.",
     "hypothesis": "Accepting the other invitation is forbidden.",
     "label": "(Forbidden conflict)",
     "explanation": ""
   },
   {
-    "id": 47,
+    "id": 45,
     "premise": "Submitting your assignment on time is obligatory. The assignment was not submitted on time. Given that it was not submitted, it ought to be that you inform your instructor.",
     "hypothesis": "Informing your instructor is obligatory.",
     "label": "(Contrary-to-duty)",
     "explanation": ""
   },
   {
-    "id": 48,
+    "id": 46,
     "premise": "You are required to attend a mandatory safety training. You did not attend the training. Given that you did not attend, it ought to be that you reschedule it.",
     "hypothesis": "You should have attended the safety training and you did not.",
     "label": "(Contrary-to-duty obligation)",
     "explanation": ""
   },
   {
-    "id": 49,
+    "id": 47,
     "premise": "You are required to submit your tax return by the deadline. You did not submit it on time. Given that you did not submit it, it ought to be that you pay a late fee.",
     "hypothesis": "You should have submitted your tax return but you did not, therefore you must pay a late fee.",
     "label": "(Contrary-to-duty obligation)",
     "explanation": ""
   },
   {
-    "id": 50,
+    "id": 48,
     "premise": "It ought to be that you go to work. You are feeling very ill. Given that you are feeling very ill, it ought to be that you do not go to work.",
     "hypothesis": "It ought to be that you do not go to work.",
     "label": "(Exception)",
     "explanation": ""
   },
   {
-    "id": 51,
+    "id": 49,
     "premise": "You must pay 20 euros to go to the circus. If you are under twelve years old, you do not have to pay. You are under twelve years old.",
     "hypothesis": "You are under no obligation to pay.",
     "label": "(Exception)",
     "explanation": ""
   },
   {
-    "id": 52,
+    "id": 50,
     "premise": "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence.",
     "hypothesis": "There ought to be no fence.",
     "label": "(Contrary-to-duty obligation and exception)",
     "explanation": ""
   },
   {
-    "id": 53,
+    "id": 51,
     "premise": "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a dog.",
     "hypothesis": "There ought to be a white fence.",
     "label": "(Contrary-to-duty obligation and exception)",
     "explanation": ""
   },
   {
-    "id": 54,
+    "id": 52,
     "premise": "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a dog.",
     "hypothesis": "Having no fence is not obligatory in this case.",
     "label": "(Contrary-to-duty obligation and exception)",
     "explanation": ""
   },
   {
-    "id": 55,
+    "id": 53,
     "premise": "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a fence.",
     "hypothesis": "The fence ought to be white.",
     "label": "(Contrary-to-duty obligation and exception)",
     "explanation": ""
   },
   {
-    "id": 56,
+    "id": 54,
     "premise": "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a fence.",
     "hypothesis": "There ought to be a white fence.",
     "label": "(Contrary-to-duty obligation and exception)",
     "explanation": ""
   },
   {
-    "id": 57,
+    "id": 55,
     "premise": "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a fence.",
     "hypothesis": "There ought to be no fence.",
     "label": "(Contrary-to-duty obligation and exception)",
     "explanation": ""
   },
   {
-    "id": 58,
+    "id": 56,
     "premise": "There ought to be no fence around the cottage. If there is a fence, it ought to be white. If there is a dog, there ought to be a white fence. There is a fence.",
     "hypothesis": "There ought to be no fence, but since there is a fence, it should be white.",
     "label": "(Contrary-to-duty obligation and exception)",
@@ -245,7 +245,7 @@
   },
 
 {
-    "id": 59,
+    "id": 57,
     "premise": "If you are entering the construction zone, you must wear protective boots. You are entering the construction zone.",
     "hypothesis": "You must wear protective boots.",
     "label": "Factual detachment",
@@ -253,7 +253,7 @@
   }, 
 
 {
-    "id": 60,
+    "id": 58,
     "premise": "If someone is in serious danger, you must help them. That person is in serious danger.",
     "hypothesis": "You must help the person.",
     "label": "Factual detachment",
@@ -261,21 +261,21 @@
   },
 
 {
-    "id": 61,
+    "id": 59,
     "premise": "If a person has entrusted you with private information, you must keep their confidence. They have entrusted you with private information.",
     "hypothesis": "You must keep their confidence.",
     "label": "Factual detachment",
     "explanation": "As maintaining confidentiality is obligatory when someone shares private information, and this has occurred, you now have an unconditional duty to keep it private."
   },
 {
-  "id": 62,
+  "id": 60,
   "premise": "If you donate to charity, you must do it privately. You must donate to charity.",
   "hypothesis": "You must donate privately.",
   "label": "(Deontic detachment)",
   "explanation": "Since donating privately is obligatory when you donate to charity, and you are obliged to donate to charity, it follows that you are unconditionally obliged to donate privately."
 },
 {
-  "id": 63,
+  "id": 61,
   "premise": "If you go to your grandfather’s birthday party, you must bring a present. You must go to your grandfather’s birthday party.",
   "hypothesis": "You must bring a present.",
   "label": "entailment (Deontic detachment)",
@@ -283,14 +283,14 @@
 },
 
 {
-  "id": 64,
+  "id": 62,
   "premise": "If you drive a car, you must not use your phone. You must drive a car to pick up your sibling.",
   "hypothesis": "You must not use your phone.",
   "label": "entailment (Deontic detachment)",
   "explanation": "Since not using your phone is obligatory when you drive, and you are obligated to drive to pick up your sibling, it follows that you are prohibited from using your phone."
 },
 {
-  "id": 65,
+  "id": 63,
   "premise": "You ought to go visiting your neighbors. If you go, you ought to tell that you are going. If you don't go, you ought not to tell that you are going. You don't go.",
   "hypothesis": "You ought not to tell that you are going.",
   "label": "entailment (Factual detachment)",
@@ -298,7 +298,7 @@
 },
 
 {
-  "id": 66,
+  "id": 64,
   "premise": "You ought to go visiting your neighbors. If you go, you ought to tell that you are going. If you don't go, you ought not to tell that you are going. You don't go.",
   "hypothesis": "You ought to tell that you are going.",
   "label": "entailment (Deontic detachment)",
