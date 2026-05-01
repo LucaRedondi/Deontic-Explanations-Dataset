@@ -1,101 +1,89 @@
-{
-    "id": 1,
-    "premise": "You are not allowed to park here.",
-    "hypothesis": "You are obliged not to park here.",
-    "label": "Obligation and forbiddenness",
-    "explanation": "If an action is forbidden, then not doing that action becomes obligatory."
-  },
+
   {
-    "id": 2,
+    "id": 1,
     "premise": "You are obliged not to park here.",
     "hypothesis": "You are not allowed to park here.",
     "label": "Obligation and forbiddenness",
     "explanation": "If not doing an action is obligatory, then that action is forbidden."
   },
   {
-    "id": 3,
+    "id": 2,
     "premise": "You are not permitted to access the confidential files.",
     "hypothesis": "It is forbidden to access the confidential files.",
     "label": "Forbiddenness and permission",
     "explanation": "Something is forbidden if and only if it is not permitted."
   },
   {
-    "id": 4,
+    "id": 3,
     "premise": "You are permitted to submit the assignment.",
     "hypothesis": "Submitting the assignment is not forbidden.",
     "label": "Obligation and permission",
     "explanation": "If something is permitted, then it is not forbidden."
   },
   {
-    "id": 5,
+    "id": 4,
     "premise": "Not submitting the assignment is not obligatory.",
     "hypothesis": "You are permitted to submit the assignment.",
     "label": "Obligation and permission",
     "explanation": "If not doing something is not obligatory, then that action is permissible."
   },
   {
-    "id": 6,
+    "id": 5,
     "premise": "Submitting the assignment is not forbidden.",
     "hypothesis": "You are permitted to submit the assignment.",
     "label": "Obligation and permission",
     "explanation": "If something is not forbidden, then it is permissible."
   },
   {
-    "id": 7,
+    "id": 6,
     "premise": "It is obligatory to help others in need.",
     "hypothesis": "It is forbidden not to help others in need.",
     "explanation": "If something is obligatory, then its negation is forbidden."
   },
   {
-    "id": 8,
+    "id": 7,
     "premise": "It is forbidden not to help others in need.",
     "hypothesis": "It is obligatory to help others in need.",
     "explanation": "If not doing something is forbidden, then that action is obligatory."
   },
   {
-    "id": 9,
+    "id": 8,
     "premise": "Not submitting the assignment is not permitted.",
     "hypothesis": "You are obliged to submit the assignment.",
     "label": "Obligation and permission",
     "explanation": "If it is not permitted to refrain from doing something, then that action is obligatory."
   },
-  {
-    "id": 10,
-    "premise": "You are not permitted to steal.",
-    "hypothesis": "You are not obliged to steal.",
-    "label": "Obligation and permission",
-    "explanation": "If something is not permitted, then it is also not obligatory."
-  },
+ 
 {
-    "id": 11,
+    "id": 9,
     "premise": "You ought to finish your homework. You ought to clean your room.",
     "hypothesis": "You ought to finish your homework and clean your room.",
     "label": "Obligation - Aggregation",
     "explanation": ""
   },
   {
-    "id": 12,
+    "id": 10,
     "premise": "You must not cheat on the exam. You must not talk during the test.",
     "hypothesis": "You must not cheat on the exam and talk during the test.",
     "label": "Forbiddingness - Aggregation",
     "explanation": ""
   },
    {
-        "id": 13,
+        "id": 11,
         "premise": "You are obliged to submit the assignment.",
         "hypothesis": "You are permitted to submit the assignment.",
         "label": "Obligation and permission",
         "explanation": "If something is obligatory, then it is permitted."
     },
     {
-        "id": 14,
+        "id": 12,
         "premise": "You are not allowed to park here.",
         "hypothesis": "You are obliged not to park here.",
         "label": "Obligation and forbiddenness",
         "explanation": "If an action is forbidden, then not doing that action becomes obligatory."
     },
     {
-        "id": 15,
+        "id": 13,
         "premise": "It is forbidden to access the confidential files.",
         "hypothesis": "You are not permitted to access the confidential files.",
         "label": "Forbiddenness and permission",
@@ -103,7 +91,7 @@
     },
 
     {
-        "id": 16,
+        "id": 14,
         "premise": "You are obliged to submit the assignment.",
         "hypothesis": "Not submitting the assignment is not permitted.",
         "label": "Obligation and permission",
@@ -111,7 +99,7 @@
     },
 
     {
-        "id": 17,
+        "id": 15,
         "premise": "You are permitted to submit the assignment.",
         "hypothesis": "Not submitting the assignment is not obligatory.",
         "label": "Obligation and permission",
@@ -119,7 +107,7 @@
     },
 
  {
-        "id": 18,
+        "id": 16,
         "premise": "You are not permitted to steal.",
         "hypothesis": "You are not obliged to steal.",
         "label": "Obligation and permission",
@@ -127,7 +115,7 @@
     },
 
 {
-  "id": 19,
+  "id": 17,
   "premise": "You are not permitted to steal. You are not permitted to kill.",
   "hypothesis": "You are obliged not to steal and not to kill.",
   "label": "Permission and obligation",
@@ -135,14 +123,14 @@
 },
 
 {
-  "id": 20,
+  "id": 18,
   "premise": "It is not permissible to drink alcohol and to drive. It is obligatory to drive home.",
   "hypothesis": "It is prohibited to drink alcohol.",
   "label": "Forbiddenness, obligation and permission",
   "explanation": "Since driving home is obligatory, and the combination of drinking and driving is not permissible, drinking alcohol is prohibited."
 },
  {
-        "id": 21,
+        "id": 19,
         "premise": "If you are on duty, you must carry a radio.",
         "hypothesis": "If you are on duty, you may carry a radio.",
         "label": "Conditional obligation and permission",
@@ -150,7 +138,7 @@
     },
 
 {
-  "id": 22,
+  "id": 20,
   "premise": "If you are in the laboratory, you are not permitted to drink.",
   "hypothesis": "If you are in the laboratory, you must not drink.",
   "label": "Conditional permission and forbiddenness",
@@ -158,7 +146,7 @@
 },
 
 {
-  "id": 23,
+  "id": 21,
   "premise": "If you ride a bicycle at night, you must turn on the lights.",
   "hypothesis": "If you ride a bicycle at night, you are forbidden from riding without the lights on.",
   "label": "Conditional obligation and prohibition",
